@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<!-- Mirrored from njrusmc.net/cache/cache.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2024 06:38:46 GMT -->
+<head>
+    <title>njrusmc.net/cache</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta name="description" content="Nick Russo Webpage and Technical Resources"/>
+    <meta name="keywords" content="CCIE, CCDE, packet capture, postman, network, training, expert"/>
+    <meta name="author" content="Nick Russo"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">li {margin: 4px 0;}</style>
+</head>
+<body>
+  <h1>HTTP Cache Testing</h1>
+  <p>
+  Free and safe files to test HTTP caching, compression, and de-duplication features.<br/>
+  You can use HTTP for direct download without a CDN, or HTTPS via CloudFront.
+  </p>
+
+  <h2>All zeroes, 128 kB</h2>
+  <p>
+  <u>Easy to compress, small files</u>
+  </p>
+  <ul>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/zero128k_none.test">HTTP</a> /
+      <a href="zero128k_none.test">HTTPS</a> /
+      No Cache-Control header
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/zero128k_public.test">HTTP</a> /
+      <a href="zero128k_public.test">HTTPS</a> /
+      Cache-Control public
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/zero128k_public60.test">HTTP</a> /
+      <a href="zero128k_public60.test">HTTPS</a> /
+      Cache-Control public, max-age=60
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/zero128k_public3600.test">HTTP</a> /
+      <a href="zero128k_public3600.test">HTTPS</a> /
+      Cache-Control public, max-age=3600
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/zero128k_private.test">HTTP</a> /
+      <a href="zero128k_private.test">HTTPS</a> /
+      Cache-Control private
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/zero128k_private60.test">HTTP</a> /
+      <a href="zero128k_private60.test">HTTPS</a> /
+      Cache-Control private, max-age=60
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/zero128k_private3600.test">HTTP</a> /
+      <a href="zero128k_private3600.test">HTTPS</a> /
+      Cache-Control private, max-age=3600
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/zero128k_nocache.test">HTTP</a> /
+      <a href="zero128k_nocache.test">HTTPS</a> /
+      Cache-Control no-cache
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/zero128k_nocache60.test">HTTP</a> /
+      <a href="zero128k_nocache60.test">HTTPS</a> /
+      Cache-Control no-cache, max-age=60
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/zero128k_nocache3600.test">HTTP</a> /
+      <a href="zero128k_nocache3600.test">HTTPS</a> /
+      Cache-Control no-cache, max-age=3600
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/zero128k_nostore.test">HTTP</a> /
+      <a href="zero128k_nostore.test">HTTPS</a> /
+      Cache-Control no-store
+    </li>
+  </ul>
+
+  <h2>Random data, 128 kB</h2>
+  <p>
+  <u>Difficult to compress, small files</u>
+  </p>
+  <ul>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/rand128k_none.test">HTTP</a> /
+      <a href="rand128k_none.test">HTTPS</a> /
+      No Cache-Control header
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/rand128k_public.test">HTTP</a> /
+      <a href="rand128k_public.test">HTTPS</a> /
+      Cache-Control public
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/rand128k_public60.test">HTTP</a> /
+      <a href="rand128k_public60.test">HTTPS</a> /
+      Cache-Control public, max-age=60
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/rand128k_public3600.test">HTTP</a> /
+      <a href="rand128k_public3600.test">HTTPS</a> /
+      Cache-Control public, max-age=3600
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/rand128k_private.test">HTTP</a> /
+      <a href="rand128k_private.test">HTTPS</a> /
+      Cache-Control private
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/rand128k_private60.test">HTTP</a> /
+      <a href="rand128k_private60.test">HTTPS</a> /
+      Cache-Control private, max-age=60
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/rand128k_private3600.test">HTTP</a> /
+      <a href="rand128k_private3600.test">HTTPS</a> /
+      Cache-Control private, max-age=3600
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/rand128k_nocache.test">HTTP</a> /
+      <a href="rand128k_nocache.test">HTTPS</a> /
+      Cache-Control no-cache
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/rand128k_nocache60.test">HTTP</a> /
+      <a href="rand128k_nocache60.test">HTTPS</a> /
+      Cache-Control no-cache, max-age=60
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/rand128k_nocache3600.test">HTTP</a> /
+      <a href="rand128k_nocache3600.test">HTTPS</a> /
+      Cache-Control no-cache, max-age=3600
+    </li>
+    <li>
+      <a href="http://njrusmc.net.s3-website.us-east-1.amazonaws.com/cache/rand128k_nostore.test">HTTP</a> /
+      <a href="rand128k_nostore.test">HTTPS</a> /
+      Cache-Control no-store
+    </li>
+  </ul>
+
+
+  <!-- add medium and large files later ... check costs -->
+
+<p>
+-------------<br/>
+<a href="../index-2.html">Main Page</a>
+</p>
+</body>
+
+<!-- Mirrored from njrusmc.net/cache/cache.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2024 06:39:08 GMT -->
+</html>

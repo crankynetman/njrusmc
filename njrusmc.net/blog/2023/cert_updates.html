@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<!-- Mirrored from njrusmc.net/blog/2023/cert_updates.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2024 06:41:13 GMT -->
+<head>
+    <title>10 Nov 2023 - Certification Study Plan Updates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="category" content="health"/>
+    <meta name="active" content=""/>
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <style type="text/css">
+    table, th, td {
+        border: 1px solid black;
+        table-layout: fixed;
+    }
+    </style>
+</head>
+<body>
+
+<h3><script type="text/javascript">document.write(document.title)</script></h3>
+
+<p>
+This is a short, no-nonsense blog that focuses on the various Cisco exam
+blueprint updates relating to the five study plans I've created. Each study
+plan has a corresponding link below so you can quickly jump to the one that
+interests you. Visit my <a href="../../course/course.html">Courses</a>
+page to view my content or my <a href="../../jobaid/jobaid.html">Jobaid</a>
+page to download my study plans, Postman collections, and other helpful items.
+</p>
+
+<h4>Table of Contents</h4>
+<ol>
+  <li><a href="#devasc">DevNet Associate (DEVASC)</a></li>
+  <li><a href="#devcor">DevNet Core Professional (DEVCOR)</a></li>
+  <li><a href="#enauto">Enterprise Automation (ENAUTO)</a></li>
+  <li><a href="#sauto">Security Automation (SAUTO)</a></li>
+  <li><a href="#enarsi">Advanced Enterprise Routing (ENARSI)</a></li>
+</ol>
+
+<h4 id="devasc">DevNet Associate (DEVASC)</h4>
+<p>
+The updates to this exam blueprint are quite minor and include:
+</p>
+<ol>
+  <li>Identify security products using the new "Cisco Secure" branding</li>
+  <li>Introduce Cisco eXtended Detection and Response (XDR)</li>
+  <li>Discuss Terraform automation use-cases</li>
+</ol>
+
+<p>
+Because none of these topics required a new project or hands-on demonstration,
+I've added a few clips to the proper courses within this learning path to
+cover the aforementioned topics. The blueprint was largely unchanged.
+</p>
+
+<h4 id="devcor">DevNet Core Professional (DEVCOR)</h4>
+<p>
+This blueprint's update only substituted one word of significance: removing
+Puppet and replacing it with Terraform. In my existing course, I used Puppet
+to manage Cisco Nexus via its NX-API to demonstrate "git revert". For that
+reason, I won't be removing Puppet from the updates because I still think it
+is useful information to have even if Cisco does not intend to test on it.
+However, I've reduced its focus in my study plan as well.
+</p>
+
+<p>
+To replace it, I've added a new 30 minute module to cover Terraform. This
+includes an architecture overview as well as several demonstrations. The
+demos include Terraform installation, setup, and plan development.
+Specifically, I deploy a new Cisco Catalyst 8000V router into AWS, then
+configure it using the new Terraform IOS-XE provider. This leverages RESTCONF
+behind the scenes, which requires some creative initial configuration steps.
+The project also leverages Terraform "output" and "destroy" commands
+for completeness.
+</p>
+
+<h4 id="enauto">Enterprise Automation (ENAUTO)</h4>
+<p>
+The main difference for this exam is a broad expansion of the Cisco Catalyst
+Center (formerly DNA Center) APIs to include Software Defined Access (SDA).
+The new blueprint also removed the multi-vendor integration and third-party
+SDK topics. Few customers leverage these technologies, which is probably the
+reason Cisco removed it from the blueprint. I still briefly mention their
+existence in the courses, but do not demonstrate them.
+</p>
+
+<p>
+Introducing SDA automation required a new 30 minute module because this
+technology is quite complex. Configuring a basic SDA fabric from scratch
+requires many API calls. After briefly describing the SDA architecture, we
+immediately jump into demonstrations, using a Cisco dCloud hardware lab to
+build a new SDA fabric. I wrap up by validating the SDA fabric's
+configuration in the GUI so that network operators will know how to monitor
+the system in production.
+</p>
+
+<h4 id="sauto">Security Automation (SAUTO)</h4>
+<p>
+This blueprint has many administrative changes detailing the new Cisco
+branding of its various security products. Because these changes are aesthetic
+and do not impact the behavior of the APIs, I consolidate this product
+renaming effort into a single clip to avoid unnecessarily updating the entire
+learning path. This update is similar to that described earlier in DEVASC.
+</p>
+
+<p>
+The significant blueprint update is the addition of Cisco's eXtended Detection
+and Response (XDR) service. This required a new 20 minute module on the topic.
+Because it can integrate with the entire Cisco Secure product suite as well
+as many third-party products, it is commonly used for centralized threat
+hunting and analysis. That's exactly what I demonstrate in this new module,
+passing in some example text so that XDR can extract observables from it, then
+enriching the details for the various observables.
+</p>
+
+<h4 id="enarsi">Advanced Enterprise Routing (ENARSI)</h4>
+<p>
+The only updates include VRF-lite for EIGRP and BGP. Since the blueprint
+already included MPLS layer-3 VPNs, viewers already learned how to use VRFs
+with BGP for PE-CE routing, but I added a new clip to specifically cover BGP
+with VRF-lite. I took that opportunity to also introduce some "local-as"
+route hairpinning, which is a common real life use case.
+</p>
+
+<p>
+As it relates to EIGRP, I originally demonstrated VRF-lite with static routing
+as an underlay for a DMVPN/EIGRP overlay. For completeness, I added a new clip
+to specifically demonstrate VRF-lite with EIGRP. These updates are technically
+required by the blueprint, but are added as detours to avoid ruining the
+existing network topologies.
+</p>
+
+<p><i>Subscribe by adding "www.njrusmc.net" to your RSS/Atom reader!</i></p>
+<p>
+<a href="../blog.html">All Blogs</a> -- <a href="../../index-2.html">Main Page</a>
+</p>
+</body>
+
+<!-- Mirrored from njrusmc.net/blog/2023/cert_updates.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2024 06:41:13 GMT -->
+</html>

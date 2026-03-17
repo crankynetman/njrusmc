@@ -1,0 +1,22 @@
+<feed>
+  <title>Nick Russo blog</title>
+  <link href="http://njrusmc.net" rel="alternate"/>
+  <link href="http://njrusmc.net/blog/atom.xml" rel="self"/>
+  <id>http://njrusmc.net/</id>
+  <author><name>Nick</name></author>
+  <updated>{{ data['feed_updated'] }}T05:00:01+00:00</updated>
+{% for blog in data['blogs'] %}
+  <entry>
+    <title>{{ blog['title'] | safe }}</title>
+    <link href="{{ blog['url'] }}" rel="alternate"/>
+    <published>{{ blog['updated'] }}T05:00:01+00:00</published>
+    <updated>{{ blog['updated'] }}T05:00:01+00:00</updated>
+    <summary type="html"><p>{{ blog['summary'] | safe }}</p></summary>
+    <author><name>Nick</name></author>
+    <id>{{ blog['url'] }}</id>
+{% for category in blog['categories'] %}
+    <category term="{{ category }}"/>
+{% endfor %}
+  </entry>
+{% endfor %}
+</feed>

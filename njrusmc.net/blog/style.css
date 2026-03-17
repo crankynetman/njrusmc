@@ -1,0 +1,12 @@
+p {
+  max-width: 18cm
+}
+li {
+  max-width: 18cm
+}
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont,
+	"Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif,
+	"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+}

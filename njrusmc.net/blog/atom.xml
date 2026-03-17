@@ -1,0 +1,1136 @@
+<feed>
+  <title>Nick Russo blog</title>
+  <link href="http://njrusmc.net" rel="alternate"/>
+  <link href="http://njrusmc.net/blog/atom.xml" rel="self"/>
+  <id>http://njrusmc.net/</id>
+  <author><name>Nick</name></author>
+  <updated>2024-01-17T05:00:01+00:00</updated>
+  <entry>
+    <title>Discord Server for Content Q&A</title>
+    <link href="http://njrusmc.net/blog/2024/discord.html" rel="alternate"/>
+    <published>2024-01-17T05:00:01+00:00</published>
+    <updated>2024-01-17T05:00:01+00:00</updated>
+    <summary type="html"><p>
+<i>Why did I create a Discord server?</i> Across all of my social
+media platforms and email, and even my Cisco equivalents, I receive
+content-related questions. I strive to provide personalized and detailed
+responses which often benefit many people. I've created this Discord
+server to quickly spread that information to more people.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2024/discord.html</id>
+    <category term="health"/>
+  </entry>
+  <entry>
+    <title>Copyright Infringement on YouTube</title>
+    <link href="http://njrusmc.net/blog/2023/yt_copyright.html" rel="alternate"/>
+    <published>2023-05-20T05:00:01+00:00</published>
+    <updated>2023-05-20T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I recently received an email from YouTube notifying me that one of my videos
+was removed due to a copyright violation. The video was a trailer for a
+Pluralsight course. My channel has about 30 of these trailers, one per full
+length course. Their purpose is to summarize the content within the course and
+generate interest. The trailers are marketing/advertising products, created by
+myself, but Pluralsight holds the copyright. Authors are licensed to freely
+distributes trailers because it is mutually beneficial both to Plurasight and
+authors. Anyone can watch the trailers on Pluralsight's website without
+logging into a paid account for the same reason. Authors are encouraged to post
+them on YouTube, Vimeo, and other similar channels to further increase awareness.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2023/yt_copyright.html</id>
+    <category term="content"/>
+    <category term="business"/>
+    <category term="copyright"/>
+  </entry>
+  <entry>
+    <title>Certification Study Plan Updates</title>
+    <link href="http://njrusmc.net/blog/2023/cert_updates.html" rel="alternate"/>
+    <published>2023-11-10T05:00:01+00:00</published>
+    <updated>2023-11-10T05:00:01+00:00</updated>
+    <summary type="html"><p>
+This is a short, no-nonsense blog that focuses on the various Cisco exam
+blueprint updates relating to the five study plans I've created. Each study
+plan has a corresponding link below so you can quickly jump to the one that
+interests you. Visit my <a href="../../course/course.html">Courses</a>
+page to view my content or my <a href="../../jobaid/jobaid.html">Jobaid</a>
+page to download my study plans, Postman collections, and other helpful items.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2023/cert_updates.html</id>
+    <category term="health"/>
+  </entry>
+  <entry>
+    <title>Microdiscectomy Megathread</title>
+    <link href="http://njrusmc.net/blog/2021/microd.html" rel="alternate"/>
+    <published>2021-10-26T05:00:01+00:00</published>
+    <updated>2021-10-26T05:00:01+00:00</updated>
+    <summary type="html"><p>
+The goal of this post is to document <i>everything</i> that I found useful
+both before and after my spine surgery. Be warned; this is a very long post
+and I recommend that interested readers consume it in manageable pieces.
+Different readers may be interested in different parts of the blog. For this
+reason, I've built a navigable "table of contents" below.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2021/microd.html</id>
+    <category term="health"/>
+  </entry>
+  <entry>
+    <title>Automating Networks with Python</title>
+    <link href="http://njrusmc.net/blog/2019/hide/ps-py-net.html" rel="alternate"/>
+    <published>2019-06-07T05:00:01+00:00</published>
+    <updated>2019-06-07T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Announcement: My Automating Networks with Python course has
+just published on Pluralsight! For a link to the training content, please visit my 
+<a href="../../../course/course.html">courses page</a>.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/hide/ps-py-net.html</id>
+    <category term="training"/>
+    <category term="pluralsight"/>
+  </entry>
+  <entry>
+    <title>Protocol Deep Dive: IGMP/MLD</title>
+    <link href="http://njrusmc.net/blog/2019/hide/ps-igmp.html" rel="alternate"/>
+    <published>2019-03-08T05:00:01+00:00</published>
+    <updated>2019-03-08T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Announcement: My Protocol Deep Dive: IGMP/MLD course has just published on
+Pluralsight! For a link to the training content, please visit my 
+<a href="../../../course/course.html">courses page</a>.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/hide/ps-igmp.html</id>
+    <category term="training"/>
+    <category term="pluralsight"/>
+  </entry>
+  <entry>
+    <title>Protocol Deep Dive: ICMP</title>
+    <link href="http://njrusmc.net/blog/2019/hide/ps-icmp.html" rel="alternate"/>
+    <published>2019-02-27T05:00:01+00:00</published>
+    <updated>2019-02-27T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Announcement: My Protocol Deep Dive: ICMP course has just published on
+Pluralsight! For a link to the training content, please visit my 
+<a href="../../../course/course.html">courses page</a>.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/hide/ps-icmp.html</id>
+    <category term="training"/>
+    <category term="pluralsight"/>
+  </entry>
+  <entry>
+    <title>Protocol Deep Dive: FTP and Its Variants</title>
+    <link href="http://njrusmc.net/blog/2019/hide/ps-ftp.html" rel="alternate"/>
+    <published>2019-05-10T05:00:01+00:00</published>
+    <updated>2019-05-10T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Announcement: My Protocol Deep Dive: FTP and Its Variants course has just
+published on Pluralsight! For a link to the training content, please visit my 
+<a href="../../../course/course.html">courses page</a>.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/hide/ps-ftp.html</id>
+    <category term="training"/>
+    <category term="pluralsight"/>
+  </entry>
+  <entry>
+    <title>Deploying Network Configuration Management and Telemetry Solutions</title>
+    <link href="http://njrusmc.net/blog/2019/hide/ps-devcor3.html" rel="alternate"/>
+    <published>2019-12-07T05:00:01+00:00</published>
+    <updated>2019-12-07T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Announcement: My Deploying Network Configuration Management and Telemetry Solutions
+course has just published on Pluralsight! For a link to the training content, please visit my 
+<a href="../../../course/course.html">courses page</a>.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/hide/ps-devcor3.html</id>
+    <category term="pluralsight"/>
+    <category term="training"/>
+  </entry>
+  <entry>
+    <title>Managing Cisco Products using Advanced API-based Methods</title>
+    <link href="http://njrusmc.net/blog/2019/hide/ps-devcor2.html" rel="alternate"/>
+    <published>2019-12-06T05:00:01+00:00</published>
+    <updated>2019-12-06T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Announcement: My Managing Cisco Products using Advanced API-based Methods course
+has just published on Pluralsight! For a link to the training content, please visit my 
+<a href="../../../course/course.html">courses page</a>.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/hide/ps-devcor2.html</id>
+    <category term="pluralsight"/>
+    <category term="training"/>
+  </entry>
+  <entry>
+    <title>Assessing and Enhancing Applications using Cisco DevNet Techniques</title>
+    <link href="http://njrusmc.net/blog/2019/hide/ps-devcor1.html" rel="alternate"/>
+    <published>2019-11-08T05:00:01+00:00</published>
+    <updated>2019-11-08T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Announcement: My Assessing and Enhancing Applications using Cisco DevNet Techniques
+course has just published on Pluralsight! For a link to the training content, please visit my 
+<a href="../../../course/course.html">courses page</a>.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/hide/ps-devcor1.html</id>
+    <category term="pluralsight"/>
+    <category term="training"/>
+  </entry>
+  <entry>
+    <title>Managing Cisco Networks via Infrastructure as Code</title>
+    <link href="http://njrusmc.net/blog/2019/hide/ps-devasc3.html" rel="alternate"/>
+    <published>2019-09-28T05:00:01+00:00</published>
+    <updated>2019-09-28T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Announcement: My Managing Cisco Networks via Infrastructure as Code course has just
+published on Pluralsight! For a link to the training content, please visit my 
+<a href="../../../course/course.html">courses page</a>.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/hide/ps-devasc3.html</id>
+    <category term="training"/>
+    <category term="pluralsight"/>
+  </entry>
+  <entry>
+    <title>Consuming Cisco APIs and Understanding Application DevOps</title>
+    <link href="http://njrusmc.net/blog/2019/hide/ps-devasc2.html" rel="alternate"/>
+    <published>2019-09-07T05:00:01+00:00</published>
+    <updated>2019-09-07T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Announcement: My Consuming Cisco APIs and Understanding Application DevOps course has just
+published on Pluralsight! For a link to the training content, please visit my 
+<a href="../../../course/course.html">courses page</a>.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/hide/ps-devasc2.html</id>
+    <category term="training"/>
+    <category term="pluralsight"/>
+  </entry>
+  <entry>
+    <title>Getting Started with Software Development using Cisco DevNet</title>
+    <link href="http://njrusmc.net/blog/2019/hide/ps-devasc1.html" rel="alternate"/>
+    <published>2019-08-07T05:00:01+00:00</published>
+    <updated>2019-08-07T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Announcement: My Getting Started with Software Development using Cisco DevNet course has just
+published on Pluralsight! For a link to the training content, please visit my 
+<a href="../../../course/course.html">courses page</a>.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/hide/ps-devasc1.html</id>
+    <category term="training"/>
+    <category term="pluralsight"/>
+  </entry>
+  <entry>
+    <title>Automating Networks with Ansible the Right Way</title>
+    <link href="http://njrusmc.net/blog/2019/hide/ps-ans-net.html" rel="alternate"/>
+    <published>2019-03-30T05:00:01+00:00</published>
+    <updated>2019-03-30T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Announcement: My Automating Networks with Ansible the Right Way course has
+just published on Pluralsight! For a link to the training content, please visit my 
+<a href="../../../course/course.html">courses page</a>.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/hide/ps-ans-net.html</id>
+    <category term="training"/>
+    <category term="pluralsight"/>
+  </entry>
+  <entry>
+    <title>Hypothesis</title>
+    <link href="http://njrusmc.net/blog/2019/12/01-hypothesis.html" rel="alternate"/>
+    <published>2019-12-01T05:00:01+00:00</published>
+    <updated>2019-12-01T05:00:01+00:00</updated>
+    <summary type="html"><p>
+This blog post will be the last one written this year. Conversely, it will be
+the first one included in the book I'm soon to release. What book, you ask?
+It's the latest development in my belief that experiments are the lifeblood of
+any improvement process as they confirm or refute our hypotheses.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/12/01-hypothesis.html</id>
+    <category term="lean"/>
+    <category term="experiment"/>
+    <category term="learning"/>
+    <category term=""/>
+  </entry>
+  <entry>
+    <title>Young Money</title>
+    <link href="http://njrusmc.net/blog/2019/11/30-young-money.html" rel="alternate"/>
+    <published>2019-11-30T05:00:01+00:00</published>
+    <updated>2019-11-30T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Ten years ago, I shared an apartment with two other US Marine officers as
+we attended a training course. I became close friends with one of them during
+our 6 months together, but like many military relationships, we grew apart
+when the course ended. Notwithstanding a brief reunion in Afghanistan, I
+hadn't seen this friend since the apartment days. That recently changed.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/11/30-young-money.html</id>
+    <category term="friends"/>
+    <category term="military"/>
+    <category term="business"/>
+  </entry>
+  <entry>
+    <title>Underestimation</title>
+    <link href="http://njrusmc.net/blog/2019/11/23-underestimation.html" rel="alternate"/>
+    <published>2019-11-23T05:00:01+00:00</published>
+    <updated>2019-11-23T05:00:01+00:00</updated>
+    <summary type="html"><p>
+At a large trade show this summer, I bumped into a man in an elevator who
+recognized my name. He introduced himself as if we were old pals but I
+honestly couldn't recall meeting him. About 5 minutes after the elevator ride,
+it hit me. I remembered him from an online chatroom trying to learn about IT
+operations automation. I figured he was a junior engineer just tinkering
+around. Oh, how wrong I was.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/11/23-underestimation.html</id>
+    <category term="business"/>
+    <category term="relationships"/>
+    <category term="entrepreneurism"/>
+  </entry>
+  <entry>
+    <title>Competition</title>
+    <link href="http://njrusmc.net/blog/2019/11/16-competition.html" rel="alternate"/>
+    <published>2019-11-16T05:00:01+00:00</published>
+    <updated>2019-11-16T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I think every business student in the world is taught to keep a watchful eye
+on the competition. I've worked for a variety of vendors, and all of them
+maintain some kind of competitive analysis. For many businesses, especially
+solo practices and startups, I think it's a waste of time.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/11/16-competition.html</id>
+    <category term="business"/>
+    <category term="competition"/>
+    <category term="community"/>
+  </entry>
+  <entry>
+    <title>Power Supply</title>
+    <link href="http://njrusmc.net/blog/2019/11/09-power-supply.html" rel="alternate"/>
+    <published>2019-11-09T05:00:01+00:00</published>
+    <updated>2019-11-09T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I attended the Interop conference in 2019, which was both my first time
+attending and speaking at the event. After my talk, I spoke to many audience
+members, awkwardly carrying a laptop and power supply while trying to shake
+hands.  I ended up losing my power supply and this frustrated me. I
+spent probably 10 minutes looking for it, but I suspect it was casually
+snagged by another attendee.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/11/09-power-supply.html</id>
+    <category term="conference"/>
+    <category term="social"/>
+  </entry>
+  <entry>
+    <title>Watch Officer</title>
+    <link href="http://njrusmc.net/blog/2019/11/02-watch-officer.html" rel="alternate"/>
+    <published>2019-11-02T05:00:01+00:00</published>
+    <updated>2019-11-02T05:00:01+00:00</updated>
+    <summary type="html"><p>
+In December 2009, I took charge of a 60-man platoon of US Marines who
+specialized in military communications. Although I was a non-commissioned
+officer in the infantry before receiving my Lieutenant's bars, I was still
+green. I was completely unprepared for an unexpected deployment one month later.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/11/02-watch-officer.html</id>
+    <category term="military"/>
+    <category term="failure"/>
+    <category term="initiative"/>
+  </entry>
+  <entry>
+    <title>Sales Psychology</title>
+    <link href="http://njrusmc.net/blog/2019/10/26-sales-psych.html" rel="alternate"/>
+    <published>2019-10-26T05:00:01+00:00</published>
+    <updated>2019-10-26T05:00:01+00:00</updated>
+    <summary type="html"><p>
+As I try to grow my own business, I've become very interested in the sales
+profession. I'm not talking about the high-pressure tactics seen with
+automotive and home improvement sales. My opinions thus far have been formed
+by three completely different books. One was on creating a sales pipeline, one
+was on story telling, and one was on psychotherapy.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/10/26-sales-psych.html</id>
+    <category term="good"/>
+    <category term="cheap"/>
+    <category term="fast"/>
+  </entry>
+  <entry>
+    <title>Advanced Tactics</title>
+    <link href="http://njrusmc.net/blog/2019/10/23-adv-tactics.html" rel="alternate"/>
+    <published>2019-10-23T05:00:01+00:00</published>
+    <updated>2019-10-23T05:00:01+00:00</updated>
+    <summary type="html"><p>
+When I enlisted in the US Marine Corps in 2004, I did so as an assaultman.
+This is an infantry role with a specialization in small-scale demolitions and
+rocket launchers. To an 18-year-old, this sounded pretty cool. One thing I
+totally underestimated about the military was their focus on "brilliance in
+the basics" in everything they do.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/10/23-adv-tactics.html</id>
+    <category term="basics"/>
+    <category term="foundations"/>
+    <category term="testing"/>
+  </entry>
+  <entry>
+    <title>Innovation</title>
+    <link href="http://njrusmc.net/blog/2019/10/19-innovation.html" rel="alternate"/>
+    <published>2019-10-19T05:00:01+00:00</published>
+    <updated>2019-10-19T05:00:01+00:00</updated>
+    <summary type="html"><p>
+In the late 1990s when I was in middle school, my school held annual
+"Invention Fairs". Students were instructed to create new products
+to solve some existing problem. Looking back 20 years later after
+never personally succeeding at these events, I realized it was never
+about innovation or creativity.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/10/19-innovation.html</id>
+    <category term="innovation"/>
+    <category term="business"/>
+    <category term="school"/>
+  </entry>
+  <entry>
+    <title>Modern Retailing</title>
+    <link href="http://njrusmc.net/blog/2019/10/12-modern-retail.html" rel="alternate"/>
+    <published>2019-10-12T05:00:01+00:00</published>
+    <updated>2019-10-12T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I recently took my 11-year-old car in for a tune-up and decided to wait at the
+shop while the work was done. I took the opportunity to examine almost every
+product available for sale in the store. It got me thinking about what I call
+the "dying gasp" of retail operations.  
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/10/12-modern-retail.html</id>
+    <category term="business"/>
+    <category term="retail"/>
+    <category term="growth"/>
+  </entry>
+  <entry>
+    <title>Product Cost</title>
+    <link href="http://njrusmc.net/blog/2019/10/05-product-cost.html" rel="alternate"/>
+    <published>2019-10-05T05:00:01+00:00</published>
+    <updated>2019-10-05T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Dr. Eliyahu Goldratt's 1984 book "The Goal" is one of my favorites of all time.
+Entertaining, witty, and relatable, the book is a novel that follows a plant
+manager as he turns his plant around under the guidance of Goldratt's literary
+reincarnation. Superficially, it was a manufacturing book, but at a deeper
+level, it revealed our collective inability to measure the right things.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/10/05-product-cost.html</id>
+    <category term="business"/>
+    <category term="cost"/>
+    <category term="money"/>
+  </entry>
+  <entry>
+    <title>Knowledge</title>
+    <link href="http://njrusmc.net/blog/2019/09/28-knowledge.html" rel="alternate"/>
+    <published>2019-09-28T05:00:01+00:00</published>
+    <updated>2019-09-28T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I've always been intrigued by nuanced differences between seemingly
+identical concepts. For example, design vs. architecture, training
+vs. education, and religion vs. spirituality to name a few. An event
+from my personal life is the focus of this blog, which targets
+seeking answers vs. seeking knowledge.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/09/28-knowledge.html</id>
+    <category term="mentorship"/>
+    <category term="education"/>
+    <category term="knowledge"/>
+  </entry>
+  <entry>
+    <title>Trolls vs. Contrarians</title>
+    <link href="http://njrusmc.net/blog/2019/09/21-troll-contrarian.html" rel="alternate"/>
+    <published>2019-09-21T05:00:01+00:00</published>
+    <updated>2019-09-21T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Those who follow this blog regularly know that I have many controversial
+opinions and personal habits. I try to stay descriptive, not prescriptive,
+giving readers the benefit of deciding for themselves what to believe.
+Some people were so disturbed by my writing that they labeled me a troll.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/09/21-troll-contrarian.html</id>
+    <category term="engagement"/>
+    <category term="community"/>
+    <category term="knowledge"/>
+  </entry>
+  <entry>
+    <title>Why?</title>
+    <link href="http://njrusmc.net/blog/2019/09/14-why.html" rel="alternate"/>
+    <published>2019-09-14T05:00:01+00:00</published>
+    <updated>2019-09-14T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I try to stay active on social media by contributing meaningfully to
+discussions. This often takes the form of asking people why they think
+or feel the way they do. Unfortunately, asking "why" is seen as a challenge
+in modern society for reasons I'll never understand.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/09/14-why.html</id>
+    <category term="engagement"/>
+    <category term="mentorship"/>
+    <category term="knowledge"/>
+  </entry>
+  <entry>
+    <title>Meeting Capital</title>
+    <link href="http://njrusmc.net/blog/2019/09/07-meeting-capital.html" rel="alternate"/>
+    <published>2019-09-07T05:00:01+00:00</published>
+    <updated>2019-09-07T05:00:01+00:00</updated>
+    <summary type="html"><p>
+One of my colleagues recently had a public explosion about his disdain for
+unnecessary, last-minute meetings. I've been thinking about this regularly and
+I want to suggest a solution which combines suggestions from several different
+business authors. First, I need to provide some context about their background.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/09/07-meeting-capital.html</id>
+    <category term="business"/>
+    <category term="meeting"/>
+    <category term="leadership"/>
+  </entry>
+  <entry>
+    <title>Rejection</title>
+    <link href="http://njrusmc.net/blog/2019/08/31-rejection.html" rel="alternate"/>
+    <published>2019-08-31T05:00:01+00:00</published>
+    <updated>2019-08-31T05:00:01+00:00</updated>
+    <summary type="html"><p>
+A few months ago, I submitted a proposal on a technical topic for which I am
+certain there is a market. Initially, the prospect was excited about it. I
+hurried to build a course scenario and develop my plan. The prospect then
+forwarded my proposal to a technical reviewer, and that's when things got
+interesting.  
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/08/31-rejection.html</id>
+    <category term="business"/>
+    <category term="priorities"/>
+    <category term="ego"/>
+  </entry>
+  <entry>
+    <title>No Questions Asked</title>
+    <link href="http://njrusmc.net/blog/2019/08/23-no-questions.html" rel="alternate"/>
+    <published>2019-08-23T05:00:01+00:00</published>
+    <updated>2019-08-23T05:00:01+00:00</updated>
+    <summary type="html"><p>
+In late summer of 2013, I started a new position with a small Government
+contractor in northern Maryland. I spoke to one of the owners on the phone,
+who was both my new boss and the company's CTO. He was a matter-of-fact
+guy with the enthusiasm of Ben Stein. I wasn't sure what to expect.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/08/23-no-questions.html</id>
+    <category term="teamwork"/>
+    <category term="focus"/>
+    <category term="humble"/>
+  </entry>
+  <entry>
+    <title>One Year in Business</title>
+    <link href="http://njrusmc.net/blog/2019/08/17-one-year.html" rel="alternate"/>
+    <published>2019-08-17T05:00:01+00:00</published>
+    <updated>2019-08-17T05:00:01+00:00</updated>
+    <summary type="html"><p>
+<b>Loop Free Consulting</b>, my first company, has been in business roughly
+one year. It's been an incredible ride and deeply satisfying as the business
+is both profitable and growing faster than I can keep up. It's a good problem
+to have, but it was not without its challenges.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/08/17-one-year.html</id>
+    <category term="business"/>
+    <category term="retrospection"/>
+  </entry>
+  <entry>
+    <title>Ansoff Matrix</title>
+    <link href="http://njrusmc.net/blog/2019/08/10-ansoff-matrix.html" rel="alternate"/>
+    <published>2019-08-10T05:00:01+00:00</published>
+    <updated>2019-08-10T05:00:01+00:00</updated>
+    <summary type="html"><p>
+While listening to a "Great Courses" business book on marketing, I was
+introduced to the Ansoff matrix. It's a simple 2x2 matrix that intersects
+customers, new and existing, with products, new and existing. I wanted to
+talk about the Ansoff matrix as it relates to my personal business offerings.
+I'd encourage you to repeat the exercise for yourself.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/08/10-ansoff-matrix.html</id>
+    <category term="business"/>
+    <category term="marketing"/>
+    <category term="consulting"/>
+  </entry>
+  <entry>
+    <title>Hidden Costs</title>
+    <link href="http://njrusmc.net/blog/2019/08/03-hidden-costs.html" rel="alternate"/>
+    <published>2019-08-03T05:00:01+00:00</published>
+    <updated>2019-08-03T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I am always astounded by how many purchasing departments measure
+costs. They are quick to break out their spreadsheet programs to tabulate the
+cost of parts, labor, freight, and capital. Inept Government officials do it, too.
+While the cost of capital helps approximate the ever-decreasing value of money
+over time, it doesn't account for other hidden costs: those of transaction and
+opportunity.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/08/03-hidden-costs.html</id>
+    <category term="costs"/>
+    <category term="business"/>
+    <category term="money"/>
+  </entry>
+  <entry>
+    <title>Forecasts</title>
+    <link href="http://njrusmc.net/blog/2019/07/27-forecasts.html" rel="alternate"/>
+    <published>2019-07-27T05:00:01+00:00</published>
+    <updated>2019-07-27T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I'm always thrilled when I can find a bridge between books on
+completely separate topics. I've recently read Nassim Nicholas Taleb's
+2012 book "Antifragile" and, coupled with my extensive research into
+Lean thinking and the Theory of Contraints (TOC), I've reinforced
+my opinion about forecasting.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/07/27-forecasts.html</id>
+    <category term="business"/>
+    <category term="money"/>
+    <category term="lean"/>
+    <category term="antifragile"/>
+  </entry>
+  <entry>
+    <title>American Colleges</title>
+    <link href="http://njrusmc.net/blog/2019/07/20-american-colleges.html" rel="alternate"/>
+    <published>2019-07-20T05:00:01+00:00</published>
+    <updated>2019-07-20T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Let's not waste time today. The cost of higher education in the United States
+is becoming oppressively expensive without a commensurate increase in quality,
+modernity, or relevance.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/07/20-american-colleges.html</id>
+    <category term="education"/>
+    <category term="skills"/>
+    <category term="money"/>
+  </entry>
+  <entry>
+    <title>Good Debt</title>
+    <link href="http://njrusmc.net/blog/2019/07/13-good-debt.html" rel="alternate"/>
+    <published>2019-07-13T05:00:01+00:00</published>
+    <updated>2019-07-13T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I've heard many different explanations around what qualifies as "good debt".
+Sometimes the answer is "nothing" and sometimes the answer is "everything".
+I think Robert Kiyosaki's definition from his 2015 book "Cashflow Quadrant"
+provides the best answer.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/07/13-good-debt.html</id>
+    <category term="business"/>
+    <category term="money"/>
+    <category term="investing"/>
+  </entry>
+  <entry>
+    <title>Ideas Are Commodity</title>
+    <link href="http://njrusmc.net/blog/2019/07/06-idea-commodity.html" rel="alternate"/>
+    <published>2019-07-06T05:00:01+00:00</published>
+    <updated>2019-07-06T05:00:01+00:00</updated>
+    <summary type="html"><p>
+One of my favorite quotations is "Ideas are commodity. Execution of them is not"
+by Michael Dell. It's a frontal assault on the falsehood that big ideas alone make
+the world go 'round. Everyone has ideas. Literally, everyone. Putting those ideas
+into practice is what matters.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/07/06-idea-commodity.html</id>
+    <category term="management"/>
+    <category term="leadership"/>
+    <category term="execution"/>
+  </entry>
+  <entry>
+    <title>Loser DNA</title>
+    <link href="http://njrusmc.net/blog/2019/06/29-loser-dna.html" rel="alternate"/>
+    <published>2019-06-29T05:00:01+00:00</published>
+    <updated>2019-06-29T05:00:01+00:00</updated>
+    <summary type="html"><p>
+A friend of mine is big into Gary Vaynerchuk, so I decided to check him out.
+I was immediately attracted to his "I'm a winner and I don't care what you
+think" attitude. My favorite phrase from Vaynerchuk so far is "loser DNA".
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/06/29-loser-dna.html</id>
+    <category term="loser"/>
+    <category term="success"/>
+    <category term="impostor"/>
+  </entry>
+  <entry>
+    <title>Conferences</title>
+    <link href="http://njrusmc.net/blog/2019/06/22-conferences.html" rel="alternate"/>
+    <published>2019-06-22T05:00:01+00:00</published>
+    <updated>2019-06-22T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I love speaking at conferences, especially big ones with big crowds. It brings
+out the best in me and many other speakers I know. I think many speakers tend
+to forget what conferences are all about; entertainment.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/06/22-conferences.html</id>
+    <category term="speaking"/>
+    <category term="branding"/>
+    <category term="people"/>
+  </entry>
+  <entry>
+    <title>Monopolies Are Bad</title>
+    <link href="http://njrusmc.net/blog/2019/06/15-monopolies-are-bad.html" rel="alternate"/>
+    <published>2019-06-15T05:00:01+00:00</published>
+    <updated>2019-06-15T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I've recently started reading some of Peter Drucker's work. The man is brilliant
+and is rightfully hailed as a thought leader in business management. The 2009 book
+"The Essential Drucker" concisely summarizes his many decades of work. Early
+in the book, he speaks of monopolies and their impacts on business. He isn't
+saying monopolies are bad for consumers, which is obviously true and
+well-known. He claims it is bad for the monopolizer, too.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/06/15-monopolies-are-bad.html</id>
+    <category term="growth"/>
+    <category term="strategy"/>
+    <category term="business"/>
+  </entry>
+  <entry>
+    <title>How Not to Write a Book</title>
+    <link href="http://njrusmc.net/blog/2019/06/08-how-not-write-book.html" rel="alternate"/>
+    <published>2019-06-08T05:00:01+00:00</published>
+    <updated>2019-06-08T05:00:01+00:00</updated>
+    <summary type="html"><p>
+My first foray onto the global scene was in the summer of 2016 when I
+self-published my first book. The topic was both highly technical and
+highly specialized. These aren't bad things per se, but the manner in
+which I developed the book was just plain stupid in retrospect.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/06/08-how-not-write-book.html</id>
+    <category term="lean"/>
+    <category term="writing"/>
+    <category term="revenue"/>
+  </entry>
+  <entry>
+    <title>Procrastination</title>
+    <link href="http://njrusmc.net/blog/2019/06/01-procrastination.html" rel="alternate"/>
+    <published>2019-06-01T05:00:01+00:00</published>
+    <updated>2019-06-01T05:00:01+00:00</updated>
+    <summary type="html"><p>
+If you came here looking for motivational advice, you might as well stop
+reading now. I'm not going to try to inspire you to do the things you
+know you should be doing. I'm going to take a more analytical approach.
+The antidote to procrastination is <b>strategic thinking</b>. Be
+deliberate with what you will and will not do.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/06/01-procrastination.html</id>
+    <category term="timemanagement"/>
+    <category term="money"/>
+    <category term="business"/>
+  </entry>
+  <entry>
+    <title>Sales Ethics</title>
+    <link href="http://njrusmc.net/blog/2019/05/29-sales-ethics.html" rel="alternate"/>
+    <published>2019-05-29T05:00:01+00:00</published>
+    <updated>2019-05-29T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Earlier this year, I consulted for an organization with about 8 independent
+data communications networks. Some of these networks were highly
+sensitive and warranted such separation, while others could, both technically
+and politically, be merged onto shared infrastructure. Such a hardware
+consolidation would reduce both capital and operating costs for the
+customer. Now, suppose you were a network device supplier staring at a 70%
+drop in revenue.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/05/29-sales-ethics.html</id>
+    <category term="business"/>
+    <category term="ethics"/>
+  </entry>
+  <entry>
+    <title>Perception Is Reality</title>
+    <link href="http://njrusmc.net/blog/2019/05/25-perception.html" rel="alternate"/>
+    <published>2019-05-25T05:00:01+00:00</published>
+    <updated>2019-05-25T05:00:01+00:00</updated>
+    <summary type="html"><p>
+A friend and fellow securities investor provided some unsolicited but constructive
+feedback on my blog. In his experience, blog quality is directly proportional
+to the perceived effort invested to maintain it. That is, the minimalist nature
+of my blog looked like a second-rate rag not worth reading.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/05/25-perception.html</id>
+    <category term="learning"/>
+    <category term="knowledge"/>
+    <category term="effort"/>
+  </entry>
+  <entry>
+    <title>Consulting "Rates"</title>
+    <link href="http://njrusmc.net/blog/2019/05/18-consulting-rates.html" rel="alternate"/>
+    <published>2019-05-18T05:00:01+00:00</published>
+    <updated>2019-05-18T05:00:01+00:00</updated>
+    <summary type="html"><p>
+In consulting, the word "rate" implies measuring some quantity against units
+of time. Dollars per hour, meters per second, sick days per year, etc.
+For decades, the world-renowned consultant Alan Weiss has lambasted
+the use of time-based fees in consulting. I want to summarize his
+arguments using my own words, thought processes, and examples.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/05/18-consulting-rates.html</id>
+    <category term="money"/>
+    <category term="consulting"/>
+    <category term="value"/>
+  </entry>
+  <entry>
+    <title>Quality is Free</title>
+    <link href="http://njrusmc.net/blog/2019/05/11-quality-is-free.html" rel="alternate"/>
+    <published>2019-05-11T05:00:01+00:00</published>
+    <updated>2019-05-11T05:00:01+00:00</updated>
+    <summary type="html"><p>
+In his 2013 book titled "Gemba Walks", 2nd edition, Dr. Jim Womack makes the statement
+that "quality is free". The claim is made within the context of a manufacturing
+environment where rework (the process of repairing defects on products just built)
+is far more expensive than doing it right the first time. Womack is not alone.
+Phillip Crosby's 1979 book "Quality is Free" coined the term.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/05/11-quality-is-free.html</id>
+    <category term="lean"/>
+    <category term="business"/>
+    <category term="quality"/>
+    <category term="cost"/>
+  </entry>
+  <entry>
+    <title>The Comfort Zone</title>
+    <link href="http://njrusmc.net/blog/2019/05/04-comfort-zone.html" rel="alternate"/>
+    <published>2019-05-04T05:00:01+00:00</published>
+    <updated>2019-05-04T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Last spring, I saw the writing on the wall. My efforts to help a longtime customer
+build a world class service provider network finally paid off. The problem
+was, they didn't need me anymore, and quickly started to hold my opinions in
+progressively lower regard. Despite extraordinary operational impact and
+commensurate acclaim, I was unhappy. I felt disrespected and discarded.
+Renowned or not, I stayed long past my useful shelf life.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/05/04-comfort-zone.html</id>
+    <category term="mindset"/>
+    <category term="toughness"/>
+    <category term="resilience"/>
+  </entry>
+  <entry>
+    <title>What is Your Time Worth?</title>
+    <link href="http://njrusmc.net/blog/2019/04/27-time-worth.html" rel="alternate"/>
+    <published>2019-04-27T05:00:01+00:00</published>
+    <updated>2019-04-27T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I've written about the time value of money before, and I think all people
+have an innate understanding that time is money. Employees sell fixed units
+of time to their employers in return for fixed sums of money. When the time unit
+is one hour, we call this a wage. When it's annual, we call it a salary. But
+what do we call spending (or losing) money in return for time? Unpaid vacation?
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/04/27-time-worth.html</id>
+    <category term="time-management"/>
+    <category term="money"/>
+    <category term="business"/>
+  </entry>
+  <entry>
+    <title>It Is Too Complex</title>
+    <link href="http://njrusmc.net/blog/2019/04/20-its-too-complex.html" rel="alternate"/>
+    <published>2019-04-20T05:00:01+00:00</published>
+    <updated>2019-04-20T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I'll come out strong; <b>I hate this excuse</b>. It's a thinly veiled attempt
+at propping up what is likely a failing status quo mindset around a
+challenging problem. Now, with that out of the way, let's examine why
+people say it.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/04/20-its-too-complex.html</id>
+    <category term="complexity"/>
+    <category term="timemanagement"/>
+    <category term=""/>
+  </entry>
+  <entry>
+    <title>The Real Power of Kanban</title>
+    <link href="http://njrusmc.net/blog/2019/04/13-kanban-surface.html" rel="alternate"/>
+    <published>2019-04-13T05:00:01+00:00</published>
+    <updated>2019-04-13T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I've written about Kanban before, and many of you know that I use it extensively
+in my personal and professional lives. In my 16 March 2019 blog about Kanban and
+scrum, I ended by saying Kanban surfaces problems. What does that really mean?
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/04/13-kanban-surface.html</id>
+    <category term="lean"/>
+    <category term="improvement"/>
+    <category term="flow"/>
+  </entry>
+  <entry>
+    <title>Well, Technically</title>
+    <link href="http://njrusmc.net/blog/2019/04/06-well-technically.html" rel="alternate"/>
+    <published>2019-04-06T05:00:01+00:00</published>
+    <updated>2019-04-06T05:00:01+00:00</updated>
+    <summary type="html"><p>
+We've all heard it. Maybe we've even partaken in it. Someone makes a comment
+that is generally correct or reasonably illustrates a point. Perhaps the statement
+was incomplete or too vague. Either way, the "well, technically" brigade comes
+out in force to pick your pithy remark apart with minutia. How to react?
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/04/06-well-technically.html</id>
+    <category term="criticism"/>
+    <category term="writing"/>
+    <category term="personal"/>
+  </entry>
+  <entry>
+    <title>Single Points of Failure</title>
+    <link href="http://njrusmc.net/blog/2019/04/05-spof.html" rel="alternate"/>
+    <published>2019-04-05T05:00:01+00:00</published>
+    <updated>2019-04-05T05:00:01+00:00</updated>
+    <summary type="html"><p>
+This blog might seem like clickbait for the technically-minded who expected
+a sermon on how to build highly-available data communications networks.
+Not so. I'd like to share my thoughts on risk management instead, and
+for the techies, I'm sure you'll see some obvious parallels.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/04/05-spof.html</id>
+    <category term="revenue"/>
+    <category term="risk"/>
+    <category term="business"/>
+  </entry>
+  <entry>
+    <title>Win Together</title>
+    <link href="http://njrusmc.net/blog/2019/03/30-win-together.html" rel="alternate"/>
+    <published>2019-03-30T05:00:01+00:00</published>
+    <updated>2019-03-30T05:00:01+00:00</updated>
+    <summary type="html"><p>
+The name of this blog is sure to rile up the cynical folks in the crowd
+and perhaps drive you one step closer to nihilism. I want to provide a few
+simple examples of winning together in the business world, and specifically,
+<b>beyond company boundaries.</b>
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/03/30-win-together.html</id>
+    <category term="teamwork"/>
+    <category term="business"/>
+  </entry>
+  <entry>
+    <title>The Soul of a Slave</title>
+    <link href="http://njrusmc.net/blog/2019/03/23-soul-of-slave.html" rel="alternate"/>
+    <published>2019-03-23T05:00:01+00:00</published>
+    <updated>2019-03-23T05:00:01+00:00</updated>
+    <summary type="html"><p>
+"The soul of a free man looks at life as a series of problems to be solved and
+solves them, while the soul of a slave whines, 'What can I do who am but a
+slave?'" writes George S. Clason in his 1926 book "The Richest Man in Babylon".
+No, this is not a blog post on the heinous act of slavery. It's not a money
+talk, either. It's a blog post on overcoming problems using mankind's inherent
+gift; critical thought.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/03/23-soul-of-slave.html</id>
+    <category term="change"/>
+    <category term="adaptation"/>
+    <category term="business"/>
+  </entry>
+  <entry>
+    <title>Kanban vs. Scrum</title>
+    <link href="http://njrusmc.net/blog/2019/03/16-kanban-scrum.html" rel="alternate"/>
+    <published>2019-03-16T05:00:01+00:00</published>
+    <updated>2019-03-16T05:00:01+00:00</updated>
+    <summary type="html"><p>
+This comparison has been beaten to death on the Internet by people much
+smarter on these topics than I. I'll briefly review both and explain
+how I've seen these methodologies work firsthand <b>outside</b> of
+software development.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/03/16-kanban-scrum.html</id>
+    <category term="agile"/>
+    <category term="lean"/>
+    <category term="timemanagement"/>
+  </entry>
+  <entry>
+    <title>How To Read More</title>
+    <link href="http://njrusmc.net/blog/2019/03/09-read-more.html" rel="alternate"/>
+    <published>2019-03-09T05:00:01+00:00</published>
+    <updated>2019-03-09T05:00:01+00:00</updated>
+    <summary type="html"><p>
+In late 2017, I was struggling to understand some of the core concepts
+underlying DevOps technologies. I knew deep down that I simply
+did not have time to sit and read traditional books. Some of you are saying
+this is an excuse. With a full time job, a wife that works full time, and a
+1-year-old daughter at the time, it just wasn't going to happen. Both my wife
+and I are regular gym-goers and aren't willing to sacrifice that. Many of
+you have followed me on the web for years and know how much I contribute
+to the community, and I'm not willing to tune that down, either. I had to
+find a way to keep expanding my knowledge without investing more time.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/03/09-read-more.html</id>
+    <category term="reading"/>
+    <category term="efficiency"/>
+    <category term="timemanagement"/>
+  </entry>
+  <entry>
+    <title>My Secret To Success</title>
+    <link href="http://njrusmc.net/blog/2019/03/02-secret-to-success.html" rel="alternate"/>
+    <published>2019-03-02T05:00:01+00:00</published>
+    <updated>2019-03-02T05:00:01+00:00</updated>
+    <summary type="html"><p>
+I'm not going to hold anything back. <b>Get rid of your television.</b>
+Being entertained via TV programming is probably the most passive activity in
+the world, except for sleeping. I'm not knocking it because it is
+physically lazy (although it certainly is), but rather because it has the
+capacity to completely transform someone's life in a negative way.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/03/02-secret-to-success.html</id>
+    <category term="timemanagement"/>
+    <category term="television"/>
+    <category term="work"/>
+  </entry>
+  <entry>
+    <title>Net Income vs. Cash Flow</title>
+    <link href="http://njrusmc.net/blog/2019/02/23-net-income-cash.html" rel="alternate"/>
+    <published>2019-02-23T05:00:01+00:00</published>
+    <updated>2019-02-23T05:00:01+00:00</updated>
+    <summary type="html"><p>
+If you are a professional accountant, investor, or business owner, you can stop
+right here. This blog is for the financially-challenged technocrats among us.
+It wasn't until early 2017 that I realized how ignorant I was on these
+topics, so I picked up a $10 Udemy course by Chris Haroun titled "An
+Entire MBA in One Course". It's a great place to start and one of the best
+$10 purchases I've ever made.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/02/23-net-income-cash.html</id>
+    <category term="money"/>
+    <category term="business"/>
+    <category term="accounting"/>
+  </entry>
+  <entry>
+    <title>Good, Cheap, Fast; Pick Any Three</title>
+    <link href="http://njrusmc.net/blog/2019/02/16-good-cheap-fast.html" rel="alternate"/>
+    <published>2019-02-16T05:00:01+00:00</published>
+    <updated>2019-02-16T05:00:01+00:00</updated>
+    <summary type="html"><p>
+The age-old adage says that you can only choose two attributes
+from the list of "good, cheap, or fast". I've seen all kinds of fancy
+mathematical graphs depicting a three-dimensional parabola that
+shows the limits of how the inputs of quality, cost, and lead time
+all interact. The CAP theorem for databases similarly suggests you can
+choose consistency, availability, or partition tolerance, but never
+all three. You can choose two, we are told, and trade-off
+the third. Intuitively, this makes sense, but is it a general truth?
+Let's examine all three possibilies.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/02/16-good-cheap-fast.html</id>
+    <category term="tradeoffs"/>
+    <category term="automation"/>
+    <category term="business"/>
+  </entry>
+  <entry>
+    <title>Mind Your Own Business</title>
+    <link href="http://njrusmc.net/blog/2019/02/09-mind-business.html" rel="alternate"/>
+    <published>2019-02-09T05:00:01+00:00</published>
+    <updated>2019-02-09T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Robert Kiyosaki's 1997 book "Rich Dad Poor Dad" suggests that
+we all "mind our own business". He's clear in stating that
+your "business" isn't your place of employment, but rather
+what <b>you</b> do to make money. Are you an author, podcaster,
+weekend lawnmower, investor, or something else? Figure out
+what topics interest you, and start thinking about how you
+can deliver unique value in those spaces. Note that non-profit
+or charity work qualifies as a "business" too, so long as you
+aren't someone else's employee while you do it.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/02/09-mind-business.html</id>
+    <category term="development"/>
+    <category term="business"/>
+  </entry>
+  <entry>
+    <title>Busy is the new Lazy</title>
+    <link href="http://njrusmc.net/blog/2019/02/02-busy-lazy.html" rel="alternate"/>
+    <published>2019-02-02T05:00:01+00:00</published>
+    <updated>2019-02-02T05:00:01+00:00</updated>
+    <summary type="html"><p>
+Perhaps a controversial topic, but an important one. All sectors of
+all industries have their share of eternally "busy" people. They
+peck away at their laptops during strategic meetings, dial into
+back-to-back conference calls, and contort themselves into cogs that fit
+perfectly into the machine that preserves the status quo.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/02/02-busy-lazy.html</id>
+    <category term="leadership"/>
+    <category term="mentorship"/>
+    <category term="business"/>
+  </entry>
+  <entry>
+    <title>Time Value of Money</title>
+    <link href="http://njrusmc.net/blog/2019/01/27-time-value-money.html" rel="alternate"/>
+    <published>2019-01-27T05:00:01+00:00</published>
+    <updated>2019-01-27T05:00:01+00:00</updated>
+    <summary type="html"><p>
+"That makes no sense", I told a business manager. "Why would we pay $100 per
+month for that service when we could buy a compute platform to run it for
+$3000? It pays for itself in two and a half years." I was convinced
+that these office-dwellers had no idea how to multiply.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/01/27-time-value-money.html</id>
+    <category term="money"/>
+    <category term="npv"/>
+    <category term="business"/>
+  </entry>
+  <entry>
+    <title>Cleaning with Lean</title>
+    <link href="http://njrusmc.net/blog/2019/01/26-lean-clean.html" rel="alternate"/>
+    <published>2019-01-26T05:00:01+00:00</published>
+    <updated>2019-01-26T05:00:01+00:00</updated>
+    <summary type="html"><p>
+At Cisco Live US 2018, attendees could volunteer to support an effort known
+as "Clean the World". Volunteers would create support packages for the world
+community where sanitation is poor or nonexistent. I always volunteer for
+things like this because it is good for humanity and doesn't take much time.
+</p></summary>
+    <author><name>Nick</name></author>
+    <id>http://njrusmc.net/blog/2019/01/26-lean-clean.html</id>
+    <category term="lean"/>
+    <category term="flow"/>
+    <category term="multitasking"/>
+  </entry>
+</feed>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<!-- Mirrored from njrusmc.net/ci_scripts/webcicd.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2024 06:40:59 GMT -->
+<head>
+    <title>njrusmc.net/webcicd</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta name="description" content="Nick Russo Webpage and Technical Resources"/>
+    <meta name="keywords" content="CCIE, CCDE, packet capture, postman, network, training, expert"/>
+    <meta name="author" content="Nick Russo"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">li {margin: 4px 0;}</style>
+</head>
+<body>
+  <h1>Continous Integration and Continuous Deployment</h1>
+  Explains how this website is maintained.
+  This is a real-life example of SaaS-based CI/CD.
+
+  <h2>Build process</h2>
+  <i>Sequence of build events and tooling to support the pipeline.</i>
+
+  <p>
+  <a href="../Makefile">Phony target Makefile</a>
+  Technique to simplify the build process. Obviates the need for some Bash scripts.
+  </p>
+
+  <p>
+  <a href="makelog.txt">Make log</a>
+  Reference output from a sample regression test using "make"
+  </p>
+
+  <p>
+  <a href="../buildspec.yml">Build Specification</a>
+  Instruction file consisting of four stages to test/deploy the website.
+  </p>
+
+  <h2>Pipeline steps</h2>
+  <i>Script sequence used during the automated build process.</i>
+  <p>
+  <a href="install_tidy.sh">Install tidy</a>
+  Bash script to install a lightweight and common HTML linter.
+  </p>
+
+  <p>
+  <a href="requirements.txt">Install Python packages</a>
+  Installed with pip. Includes pylint and bandit for linting.
+  </p>
+
+  <p>
+  <a href="html_lint.sh">HTML lint script</a>
+  Bash script to check HTML code for syntax/security issues.
+  </p>
+
+  <p>
+  <u>Python code validation</u>
+  Ensure all source code is "production ready" (see Makefile):
+  </p>
+  <ul>
+    <li>Run "pylint" linter to check syntax conventions</li>
+    <li>Run "bandit" security scanner to find vulnerabilities</li>
+    <li>Run "black" formatter to ensure style uniformity</li>
+  </ul>
+
+  <p>
+  <u>Compute SHA-265</u>
+  Hash all website-accessible files for integrity (see Makefile).
+  <a href="hashes.txt">Download</a> current hashes here.
+  </p>
+
+  <p>
+  <a href="make_atom.py">Create Atom XML file</a>
+  <a href="atom_xml.j2"> using the supporting template</a>
+  Python script and jinja2 template to assist with feed subscriptions.
+  </p>
+
+  <p>
+  <a href="copy_redirects.sh">Copy redirection files</a>
+  Uploads redirection files containing their metadata contents to AWS S3.
+  </p>
+
+  <p>
+  <a href="check_links.py">Validate href/img links</a>
+  Python script to follow all hyperlinks, files, and images to ensure they work.
+  </p>
+
+  <p>
+  <a href="check_cache_headers.py">Validate cache headers</a>
+  Ensure all HTTP cache test files have the expected Cache-Control headers.
+  </p>
+
+  <p>
+  <a href="check_redirects.py">Validate redirection targets</a>
+  Ensure that redirection file metadata matches what AWS S3 is advertising.
+  </p>
+
+<p>
+-------------<br/>
+<a href="../index-2.html">Main Page</a>
+</p>
+</body>
+
+<!-- Mirrored from njrusmc.net/ci_scripts/webcicd.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2024 06:41:12 GMT -->
+</html>

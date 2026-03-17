@@ -1,0 +1,45 @@
+---
+version: 0.2
+phases:
+  # Install tidy (HTML lint) and the required Python packages.
+  install:
+    runtime-versions:
+      python: '3.9'
+    commands:
+      - 'lsb_release -a'
+      - 'uname -a'
+      - 'openssl version'
+      - 'ci_scripts/install_tidy.sh'
+      - 'pip install -r ci_scripts/requirements.txt'
+      - 'pylint --version'
+      - 'bandit --version'
+      - 'black --version'
+
+  # Runs all four pre-deployment steps: lint, hash, atom, link.
+  pre_build:
+    commands:
+      - 'make'
+
+  # Deploy the web pages to the S3 bucket which serves the website.
+  # Don't copy any of the internal git, cache, or redirect files.
+  # Then, copy the redirect files one by one using a dedicated script.
+  build:
+    commands:
+      - >-
+        aws s3 cp . s3://njrusmc.net/ --recursive
+        --exclude ".git/*"
+        --exclude ".gitignore"
+        --exclude "cache/*.test"
+        --exclude "r/*"
+      - 'ci_scripts/copy_redirects.sh'
+
+  # After deployment, check the hyperlinks again, this time targeting the
+  # website and not the local HTML files. Also, ensure the Cache-Control
+  # test files have retained their headers post-copy. Last, ensure
+  # the redirect files were built correctly.
+  post_build:
+    commands:
+      - 'python ci_scripts/check_links.py "http://njrusmc.net"'
+      - 'python ci_scripts/check_cache_headers.py'
+      - 'python ci_scripts/check_redirects.py'
+...

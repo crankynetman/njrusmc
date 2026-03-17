@@ -1,0 +1,391 @@
+*** Starting  lint ***
+ci_scripts/html_lint.sh
+checking ./course/course.html
+checking ./index.html
+checking ./code/code.html
+checking ./about/about.html
+checking ./blog/blog.html
+checking ./blog/2019/03/30-win-together.html
+checking ./blog/2019/03/23-soul-of-slave.html
+checking ./blog/2019/03/02-secret-to-success.html
+checking ./blog/2019/03/16-kanban-scrum.html
+checking ./blog/2019/03/09-read-more.html
+checking ./blog/2019/04/13-kanban-surface.html
+checking ./blog/2019/04/05-spof.html
+checking ./blog/2019/04/27-time-worth.html
+checking ./blog/2019/04/20-its-too-complex.html
+checking ./blog/2019/04/06-well-technically.html
+checking ./blog/2019/05/29-sales-ethics.html
+checking ./blog/2019/05/04-comfort-zone.html
+checking ./blog/2019/05/11-quality-is-free.html
+checking ./blog/2019/05/25-perception.html
+checking ./blog/2019/05/18-consulting-rates.html
+checking ./blog/2019/02/23-net-income-cash.html
+checking ./blog/2019/02/16-good-cheap-fast.html
+checking ./blog/2019/02/02-busy-lazy.html
+checking ./blog/2019/02/09-mind-business.html
+checking ./blog/2019/11/23-underestimation.html
+checking ./blog/2019/11/16-sufficiency.html
+checking ./blog/2019/11/02-watch-officer.html
+checking ./blog/2019/11/09-power-supply.html
+checking ./blog/2019/11/30-young-money.html
+checking ./blog/2019/10/19-innovation.html
+checking ./blog/2019/10/26-sales-psych.html
+checking ./blog/2019/10/23-adv-tactics.html
+checking ./blog/2019/10/12-modern-retail.html
+checking ./blog/2019/10/05-product-cost.html
+checking ./blog/2019/07/13-good-debt.html
+checking ./blog/2019/07/06-idea-commodity.html
+checking ./blog/2019/07/20-american-colleges.html
+checking ./blog/2019/07/27-forecasts.html
+checking ./blog/2019/hide/net-career.html
+checking ./blog/2019/hide/ps-igmp.html
+checking ./blog/2019/hide/ps-devasc1.html
+checking ./blog/2019/hide/ps-py-net.html
+checking ./blog/2019/hide/ps-ans-net.html
+checking ./blog/2019/hide/ps-ftp.html
+checking ./blog/2019/hide/ps-icmp.html
+checking ./blog/2019/hide/ps-devasc2.html
+checking ./blog/2019/hide/ps-devasc3.html
+checking ./blog/2019/09/28-knowledge.html
+checking ./blog/2019/09/07-meeting-capital.html
+checking ./blog/2019/09/14-why.html
+checking ./blog/2019/09/21-troll-contrarian.html
+checking ./blog/2019/08/17-one-year.html
+checking ./blog/2019/08/24-no-questions.html
+checking ./blog/2019/08/10-ansoff-matrix.html
+checking ./blog/2019/08/31-rejection.html
+checking ./blog/2019/08/03-hidden-costs.html
+checking ./blog/2019/01/26-lean-clean.html
+checking ./blog/2019/01/27-time-value-money.html
+checking ./blog/2019/06/01-procrastination.html
+checking ./blog/2019/06/22-conferences.html
+checking ./blog/2019/06/15-monopolies-are-bad.html
+checking ./blog/2019/06/08-how-not-write-book.html
+checking ./blog/2019/06/29-loser-dna.html
+checking ./blog/2019/12/1-hypotheses.html
+checking ./blog/templates/announcet.html
+checking ./blog/templates/blogt.html
+checking ./links/links.html
+checking ./ci_scripts/webcicd.html
+checking ./podcast/podcast.html
+checking ./pub/pub.html
+checking ./jobaid/jobaid.html
+checking ./video/video.html
+find . -name "*.py" | xargs pylint --jobs 5
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+find . -name "*.py" | xargs bandit --verbose
+[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.6.5
+Run started:2019-08-23 11:38:44.133529
+Files in scope (2):
+	./ci_scripts/check_links.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+	./ci_scripts/make_atom.py (score: {SEVERITY: 0, CONFIDENCE: 0})
+Files excluded (0):
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 206
+	Total lines skipped (#nosec): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0.0
+		Low: 0.0
+		Medium: 0.0
+		High: 0.0
+	Total issues (by confidence):
+		Undefined: 0.0
+		Low: 0.0
+		Medium: 0.0
+		High: 0.0
+Files skipped (0):
+find . -name "*.py" | xargs black --verbose --line-length 80
+/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/check_links.py wasn't modified on disk since last run.
+/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/make_atom.py wasn't modified on disk since last run.
+All done! ✨ 🍰 ✨
+2 files left unchanged.
+*** Completed lint ***
+*** Starting  hash ***
+rm -f ci_scripts/hashes.txt
+find . -type f ! -path "*/\.*" ! -name "*.html" ! -name "*.css" \
+	| xargs sha256sum | tee ci_scripts/hashes.txt
+d30195cfc33eb8a4303ade86dd4ead9d24a53680c0ce3cb4c061487f234b80d6  ./Makefile
+d309968cd903effd012557c76d4e3e6c31513c59519ea04a4565d2fcac5fe873  ./buildspec.yml
+af291c6aab90c5c15fb2d284a868db2b889fc6a3539a1d16963fb2e43316855b  ./about/nrusso_pic.jpg
+14bbc0a48f714fa9b5e82b601e408b8d2a2d069de9da50c4fcd811a0716ef90d  ./about/ccie-sp-logo.jpg
+49f208f02ac52ba69f40068c703142e822e3dc82fc24b57ed362275cb1a1061d  ./about/ccde-logo.jpg
+b124d4872b671bc3712a0dd7957361c8026c6b60f68da52081f4a9cce6c4f1c0  ./about/ccie-rs-logo.jpg
+f981b13e678757b3819b00db12d83209d5bcfdd5272e3e948fc2a9e449596588  ./about/nrusso_resume.pdf
+236f0c26c0306d17f57932e1d38c08e15084d48bdbaf8b353a313da31418a423  ./blog/ideas.txt
+44768ea411aab69dd12764a3c490b351d3920cb6b4aeb4036c47f0b4aaa2f427  ./blog/atom.xml
+2ea02b0c165fba386fede70a6002b6ff3a867b8e0791972280c6b818cb34f918  ./ci_scripts/requirements.txt
+4e705c0d7f9643506c56fac0b4db0f50b0bf927bf41dfdd827c092f8ee3ae0b3  ./ci_scripts/install_tidy.sh
+2990cb9eda3c268f0670ced0c5e82d66f588384a6102e7997c4b0a5cfbf6e43f  ./ci_scripts/html_lint.sh
+97011c701ca84a7b32bdd17132ebbe310dc122b89b7be48d37902cf15f9c37b9  ./ci_scripts/check_links.py
+adb3779bd853c92992c1b000f1f36317f00d48773f562b2ca62a45d52e15da67  ./ci_scripts/atom_xml.j2
+3230949acbe2abfdb1c920e67da6962e715f7ce52cabdef62e8b39e12fde5ff2  ./ci_scripts/make_atom.py
+2fb5c746bd1a77395bd01970a6c34b922b822aebfdb0d0bbc753c9ff0999f124  ./ci_scripts/makelog.txt
+fe9d91b5780217b0b55b03ae41b84e8c2018aecbe6b194636d670b7047061a00  ./pub/bts_leaf_spine.pdf
+289499c75fc5275cf89e2995e273b9418314f42b200807d39aa9ce1ac1efeb40  ./pub/ospf_dmvpn_anycast.pdf
+e9e4dca842ae39db1115fb5ef189ca126f79aa984df9ec61e1cf59201b465d9e  ./jobaid/ipsec_design.xlsx
+358c61fd54ce7925de69fd2f4bdad7339d58a01b1cafd3a7994e5a04e9e89a87  ./jobaid/econ_model.xlsx
+d2c977db1c44f9f3d9f7acde280a834dccd4e15f3497034d2ccb0d1b6a05fcfa  ./jobaid/lmnop_answers.pdf
+8af16dce2b716755272f678c08635ea06dadc9730cb786ab3e747384d5ef14a8  ./jobaid/mela_mini.pdf
+f35bcc3f8d6ad6a3263291950f8d480d6a52566ab0e3819b2a139ca24cc717be  ./jobaid/dermacorp_analyze.pdf
+c8a44d6fde429171e1c26731fd0750f170e2722195ecda567b5052f9dbe970ac  ./jobaid/lmnop_scenario.pdf
+8ebc3c7c9d77f00d80ff571695fdfcacb8d268250e863c461b36205372d67045  ./jobaid/wlan_qos.xlsx
+c731e0d8a6c43888753017ec153875691ca3fcebe1cc01123a6350e2d50ac4dd  ./jobaid/wlan_pcap.zip
+b8d992d64d0f7468d6d140d9636f335aff895c3a3f4f7e1c1c0e8da1800b8085  ./jobaid/ndfc_analyze.pdf
+8c27b8975f4cac87cd12bfbd85efe95967ddce6328a2b69b6711992d6b53a5f4  ./jobaid/vsphere6_migrations.xlsx
+d14711e0a157cc14148f47cb6a9a0ec3d65f13b93033d127d04271d7ad084005  ./jobaid/qos_summary.xlsx
+8a8a8aa93cfe6e099430bcf67a6ab60531e9b91083e4265331d5ee506087320a  ./jobaid/little_law.xlsx
+*** Completed hash ***
+*** Starting  atom ***
+python ci_scripts/make_atom.py
+blog/2019/hide/ps-py-net.html ... OK!
+blog/2019/hide/ps-igmp.html ... OK!
+blog/2019/hide/ps-icmp.html ... OK!
+blog/2019/hide/ps-ftp.html ... OK!
+blog/2019/hide/ps-devasc3.html ... inactive
+blog/2019/hide/ps-devasc2.html ... inactive
+blog/2019/hide/ps-devasc1.html ... OK!
+blog/2019/hide/ps-ans-net.html ... OK!
+blog/2019/hide/net-career.html ... inactive
+blog/2019/12/1-hypotheses.html ... inactive
+blog/2019/11/30-young-money.html ... inactive
+blog/2019/11/23-underestimation.html ... inactive
+blog/2019/11/16-sufficiency.html ... inactive
+blog/2019/11/09-power-supply.html ... inactive
+blog/2019/11/02-watch-officer.html ... inactive
+blog/2019/10/26-sales-psych.html ... inactive
+blog/2019/10/23-adv-tactics.html ... inactive
+blog/2019/10/19-innovation.html ... inactive
+blog/2019/10/12-modern-retail.html ... inactive
+blog/2019/10/05-product-cost.html ... inactive
+blog/2019/09/28-knowledge.html ... inactive
+blog/2019/09/21-troll-contrarian.html ... inactive
+blog/2019/09/14-why.html ... inactive
+blog/2019/09/07-meeting-capital.html ... inactive
+blog/2019/08/31-rejection.html ... inactive
+blog/2019/08/24-no-questions.html ... inactive
+blog/2019/08/17-one-year.html ... OK!
+blog/2019/08/10-ansoff-matrix.html ... OK!
+blog/2019/08/03-hidden-costs.html ... OK!
+blog/2019/07/27-forecasts.html ... OK!
+blog/2019/07/20-american-colleges.html ... OK!
+blog/2019/07/13-good-debt.html ... OK!
+blog/2019/07/06-idea-commodity.html ... OK!
+blog/2019/06/29-loser-dna.html ... OK!
+blog/2019/06/22-conferences.html ... OK!
+blog/2019/06/15-monopolies-are-bad.html ... OK!
+blog/2019/06/08-how-not-write-book.html ... OK!
+blog/2019/06/01-procrastination.html ... OK!
+blog/2019/05/29-sales-ethics.html ... OK!
+blog/2019/05/25-perception.html ... OK!
+blog/2019/05/18-consulting-rates.html ... OK!
+blog/2019/05/11-quality-is-free.html ... OK!
+blog/2019/05/04-comfort-zone.html ... OK!
+blog/2019/04/27-time-worth.html ... OK!
+blog/2019/04/20-its-too-complex.html ... OK!
+blog/2019/04/13-kanban-surface.html ... OK!
+blog/2019/04/06-well-technically.html ... OK!
+blog/2019/04/05-spof.html ... OK!
+blog/2019/03/30-win-together.html ... OK!
+blog/2019/03/23-soul-of-slave.html ... OK!
+blog/2019/03/16-kanban-scrum.html ... OK!
+blog/2019/03/09-read-more.html ... OK!
+blog/2019/03/02-secret-to-success.html ... OK!
+blog/2019/02/23-net-income-cash.html ... OK!
+blog/2019/02/16-good-cheap-fast.html ... OK!
+blog/2019/02/09-mind-business.html ... OK!
+blog/2019/02/02-busy-lazy.html ... OK!
+blog/2019/01/27-time-value-money.html ... OK!
+blog/2019/01/26-lean-clean.html ... OK!
+XML data written to blog/atom.xml
+*** Completed atom ***
+*** Starting  link ***
+python ci_scripts/check_links.py "index.html"
+CLI input   'index.html'
+
+Read URI    'index.html'
+
+Read URI    '/Users/nicholasrusso/Desktop/njrusmc-net/about/about.html'
+  HTTP HEAD  'https://ccie.cloudapps.cisco.com/CCIE/Schedule_Lab/CCIEOnline/CCIEO' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/about/nrusso_resume.pdf' ... OK!
+  Skip link 'mailto:njrusmc@gmail.com?subject=Website%20visit'
+  HTTP HEAD  'https://twitter.com/nickrusso42518' ... OK!
+  HTTP HEAD  'https://www.linkedin.com/in/njrusmc' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/about/../index.html' ... OK!
+  Is image? '/Users/nicholasrusso/Desktop/njrusmc-net/about/nrusso_pic.jpg' ... OK!
+  Is image? '/Users/nicholasrusso/Desktop/njrusmc-net/about/ccde-logo.jpg' ... OK!
+  Is image? '/Users/nicholasrusso/Desktop/njrusmc-net/about/ccie-rs-logo.jpg' ... OK!
+  Is image? '/Users/nicholasrusso/Desktop/njrusmc-net/about/ccie-sp-logo.jpg' ... OK!
+
+Read URI    '/Users/nicholasrusso/Desktop/njrusmc-net/blog/blog.html'
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/08/17-one-year.ht' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/08/10-ansoff-matr' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/08/03-hidden-cost' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/07/27-forecasts.h' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/07/20-american-co' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/07/13-good-debt.h' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/07/06-idea-commod' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/06/29-loser-dna.h' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/06/22-conferences' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/06/15-monopolies-' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/06/08-how-not-wri' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/06/01-procrastina' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/05/29-sales-ethic' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/05/25-perception.' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/05/18-consulting-' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/05/11-quality-is-' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/05/04-comfort-zon' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/04/27-time-worth.' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/04/20-its-too-com' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/04/13-kanban-surf' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/04/06-well-techni' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/04/05-spof.html' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/03/30-win-togethe' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/03/23-soul-of-sla' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/03/16-kanban-scru' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/03/09-read-more.h' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/03/02-secret-to-s' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/02/23-net-income-' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/02/16-good-cheap-' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/02/09-mind-busine' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/02/02-busy-lazy.h' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/01/27-time-value-' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/01/26-lean-clean.' ... OK!
+  HTTP HEAD  'https://network4dev.net/en/latest/' ... OK!
+  HTTP HEAD  'http://gestaltit.com/featured/rich/nicholas-russo-origins/' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/2019/hide/net-career.h' ... OK!
+  HTTP HEAD  'http://lostintransit.se/2016/03/11/ccie-ccie-spv4-review-by-nick-ru' ... OK!
+  HTTP HEAD  'https://learningnetwork.cisco.com/blogs/unleashing-ccde/2017/01/13/' ... OK!
+  HTTP HEAD  'https://learningnetwork.cisco.com/blogs/unleashing-ccde/2017/01/20/' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/blog/../index.html' ... OK!
+
+Read URI    '/Users/nicholasrusso/Desktop/njrusmc-net/code/code.html'
+  HTTP HEAD  'https://github.com/nickrusso42518/mkfd' ... OK!
+  HTTP HEAD  'https://github.com/nickrusso42518/racc' ... OK!
+  HTTP HEAD  'https://github.com/nickrusso42518/nots' ... OK!
+  HTTP HEAD  'https://github.com/nickrusso42518/natm' ... OK!
+  HTTP HEAD  'https://github.com/nickrusso42518/perf' ... OK!
+  HTTP HEAD  'https://github.com/nickrusso42518/vpnm' ... OK!
+  HTTP HEAD  'https://github.com/nickrusso42518/stig' ... OK!
+  HTTP HEAD  'https://github.com/nickrusso42518/basic-algorithms' ... OK!
+  HTTP HEAD  'https://github.com/nickrusso42518/subc' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/code/../index.html' ... OK!
+
+Read URI    '/Users/nicholasrusso/Desktop/njrusmc-net/video/video.html'
+  HTTP HEAD  'https://www.ciscolive.com/global/on-demand-library.html?#/session/1' ... OK!
+  HTTP HEAD  'https://github.com/nickrusso42518/ospf_brkrst3310' ... OK!
+  HTTP HEAD  'https://www.ciscolive.com/global/on-demand-library.html?#/session/1' ... OK!
+  HTTP HEAD  'https://www.youtube.com/watch?v=zBOYvQkvlaE' ... OK!
+  HTTP HEAD  'https://www.youtube.com/c/nicholasrusso' ... OK!
+  HTTP HEAD  'https://www.youtube.com/watch?v=2sLqfs2JZbA' ... OK!
+  HTTP HEAD  'https://www.youtube.com/watch?v=6YGmNtsmz2k' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/conf/../index.html' ... OK!
+
+Read URI    '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/jobaid.html'
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/wlan_pcap.zip' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/wlan_qos.xlsx' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/qos_summary.xlsx' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/ipsec_design.xlsx' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/vsphere6_migrations.' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/little_law.xlsx' ... OK!
+  HTTP HEAD  'https://hbswk.hbs.edu/archive/hbs-toolkit-basic-operations-self-ins' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/econ_model.xlsx' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/lmnop_scenario.pdf' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/lmnop_answers.pdf' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/dermacorp_analyze.pd' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/mela_mini.pdf' ... OK!
+  HTTP HEAD  'https://twitter.com/malcolmbooden' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/ndfc_analyze.pdf' ... OK!
+  HTTP HEAD  'https://twitter.com/cciepending' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/jobaid/../index.html' ... OK!
+
+Read URI    '/Users/nicholasrusso/Desktop/njrusmc-net/podcast/podcast.html'
+  HTTP HEAD  'https://medium.com/@leanpub/leanpub-podcast-interview-34-nicholas-r' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2019/03/ep47-intro-to-segment-rout' ... OK!
+  HTTP HEAD  'https://zigbits.tech/csc/' ... OK!
+  HTTP HEAD  'https://zigbits.tech/zndp-030-designing-for-devops-with-nick-russo/' ... OK!
+  HTTP HEAD  'https://zigbits.tech/zndp-033-ci-cd-see-why/' ... OK!
+  HTTP HEAD  'https://zigbits.tech/zndp-035-wireless-qos-design/' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2017/06/episode-5-all-you-ever-wan' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2017/08/ep9-ospf/' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2017/10/episode-14-digging-deep-in' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2017/12/ep17-bgp-peering-reachabil' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2018/01/ep19-bgp-te/' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2018/02/securing-bgp/' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2018/04/mpls-part-1/' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2018/06/mpls-vpns/' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2018/09/ep34-mpls-traffic-engineer' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2018/11/ep40-mpls-fast-reroute/' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/2019/08/cs-nick-russo/' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/podcast/../index.html' ... OK!
+
+Read URI    '/Users/nicholasrusso/Desktop/njrusmc-net/pub/pub.html'
+  HTTP HEAD  'https://leanpub.com/ccie-spv4-comp-guide' ... OK!
+  Skip link 'etech.pdf'
+  HTTP HEAD  'https://github.com/nickrusso42518/cisco-etech' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/pub/bts_leaf_spine.pdf' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/pub/ospf_dmvpn_anycast.pdf' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/pub/../index.html' ... OK!
+
+Read URI    '/Users/nicholasrusso/Desktop/njrusmc-net/course/course.html'
+  HTTP HEAD  'https://learning.oreilly.com/live-training/courses/learning-python-' ... OK!
+  HTTP HEAD  'https://learning.oreilly.com/live-training/courses/network-devops/0' ... OK!
+  HTTP HEAD  'https://www.pluralsight.com/courses/getting-started-software-develo' ... OK!
+  HTTP HEAD  'https://www.pluralsight.com/courses/automating-networks-ansible-rig' ... OK!
+  HTTP HEAD  'https://www.pluralsight.com/courses/automating-networks-python' ... OK!
+  HTTP HEAD  'https://www.pluralsight.com/courses/protocol-deep-dive-icmp' ... OK!
+  HTTP HEAD  'https://www.pluralsight.com/courses/protocol-deep-dive-igmp-mld' ... OK!
+  HTTP HEAD  'https://www.pluralsight.com/courses/protocol-deep-dive-ftp-variants' ... OK!
+  HTTP HEAD  'https://thenetworkcollective.com/available-member-exclusive-content' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/course/../index.html' ... OK!
+
+Read URI    '/Users/nicholasrusso/Desktop/njrusmc-net/links/links.html'
+  HTTP HEAD  'https://www.trueneutral.eu/' ... OK!
+  HTTP HEAD  'http://lostintransit.se/' ... OK!
+  HTTP HEAD  'https://www.dravetech.com/' ... OK!
+  HTTP HEAD  'https://www.networkingwithfish.com/' ... OK!
+  HTTP HEAD  'https://dmfigol.me/' ... OK!
+  HTTP HEAD  'http://www.esharp.net/' ... OK!
+  HTTP HEAD  'https://blog.ipspace.net/' ... OK!
+  HTTP HEAD  'http://jedelman.com/' ... OK!
+  HTTP HEAD  'https://learningnetwork.cisco.com/docs/DOC-33579' ... OK!
+  HTTP HEAD  'https://www.network-node.com/' ... OK!
+  HTTP HEAD  'https://www.stubarea51.net/' ... OK!
+  HTTP HEAD  'https://www.packet-forwarding.net/' ... OK!
+  HTTP HEAD  'https://pynet.twb-tech.com/' ... OK!
+  HTTP HEAD  'https://lkhill.com/' ... OK!
+  HTTP HEAD  'https://youtube.com/decodingpacketsinfo' ... OK!
+  HTTP HEAD  'https://rule11.tech/' ... OK!
+  HTTP HEAD  'https://networkingnerd.net/' ... OK!
+  HTTP HEAD  'https://theleanarmy.com/' ... OK!
+  HTTP HEAD  'https://www.bcrf.org/' ... OK!
+  HTTP HEAD  'https://newbornsinneed.org/' ... OK!
+  HTTP HEAD  'https://www.woundedwarriorproject.org/' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/links/../index.html' ... OK!
+
+Read URI    '/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/webcicd.html'
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/../Makefile' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/makelog.txt' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/../buildspec.yml' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/install_tidy.sh' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/requirements.txt' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/html_lint.sh' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/hashes.txt' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/make_atom.py' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/atom_xml.j2' ... OK!
+  Is file?  '/Users/nicholasrusso/Desktop/njrusmc-net/ci_scripts/check_links.py' ... OK!
+ALL LINKS ARE HEALTHY
+*** Completed link ***

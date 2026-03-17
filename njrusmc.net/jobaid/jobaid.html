@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<!-- Mirrored from njrusmc.net/jobaid/jobaid.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2024 06:39:08 GMT -->
+<head>
+    <title>njrusmc.net/jobaid</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta name="description" content="Nick Russo Webpage and Technical Resources"/>
+    <meta name="keywords" content="CCIE, CCDE, packet capture, postman, network, training, expert"/>
+    <meta name="author" content="Nick Russo"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">li {margin: 4px 0;}</style>
+</head>
+<body>
+  <h1>Job Aids</h1>
+  This page contains miscellaneous products to help individuals in their
+  daily work and technical studies.
+
+  <a name="pcap" type="skip"></a>
+  <h2>Packet Captures</h2>
+  <i>
+  Packet captures help reveal the ground truth. Use these PCAPs
+  as references when troubleshooting complex issues.
+  </i>
+
+  <p>
+  <u>Layer-2 and Below</u>
+  </p>
+  <ul>
+    <li>
+      <a href="layer2_pcap.zip">Layer-2 Encapsulations</a>
+      Ethernet (with jumbo), PPP, PPPoE, HDLC, ATM-AAL5, and frame-relay captures.
+    </li>
+    <li>
+      <a href="nonip_pcap.zip">Common Non-IP Protocols</a>
+      ARP, CDP, LLDP, VTP, PAgP, LACP (with Cisco Nexus 9K vPC), DTP, and UDLD captures.
+    </li>
+    <li>
+      <a href="legacy_pcap.zip">Legacy Protocols</a>
+      AppleTalk, CLNS, DECnet, DLSw (SNA), and IPX captures.
+    </li>
+    <li>
+      <a href="stp_pcap.zip">STP</a>
+      Original (PVST), rapid (RPVST), and multiple spanning tree (MST) captures.
+    </li>
+    <li>
+      <a href="fhrp_pcap.zip">FHRP</a>
+      HSRP, VRRP, GLBP, IRDP, and IPv6 LAN anycast captures.
+    </li>
+    <li>
+      <a href="bfd_pcap.zip">BFD</a>
+      Mix of single/multi hop, authentication, and echo captures.
+    </li>
+    <li>
+      <a href="wlan_pcap.zip">Wireless LAN</a>
+      Includes many clients, QoS settings, authentication flows, roaming tests, etc.
+    </li>
+  </ul>
+
+  <p>
+  <u>Tunneling and VPNs</u>
+  </p>
+  <ul>
+    <li>
+      <a href="ip_tunnel_pcap.zip">IP Tunnels</a>
+      GRE (with options), mGRE/DMVPN, LISP, ERSPAN, IPinIP, AMT, NOS/KA9Q, and RBSCP captures.
+    </li>
+    <li>
+      <a href="ipv6_trans_pcap.zip">IPv6 Transition</a>
+      IPv6 in IPv4, GRE, 6to4, 6rd, and ISATAP captures.
+    </li>
+    <li>
+      <a href="ipsec_macsec_pcap.zip">IPsec and MACsec</a>
+      IPsec: AH/ESP with tunnel/transport mode, GRE, and NAT-T. MACsec: various policies.
+    </li>
+    <li>
+      <a href="ip_l2vpn_pcap.zip">IP-based L2VPN</a>
+      Many types of L2TPv3, VXLAN, STT, NVGRE, GENEVE, and OTV captures.
+    </li>
+    <li>
+      <a href="mpls_pcap.zip">MPLS</a>
+      LDPv4/v6, pseudowires, RSVP-TE, LSPV (OAM), MPLS over IP/DMVPN, and OSPF/IS-IS TE extensions.
+    </li>
+    <li>
+      <a href="sr_pcap.zip">Segment Routing</a>
+      SR transmission via OSPF, IS-IS and BGP-LS. Includes SR-TE, SR-OAM, and PCEP. A bit of SRv6.
+    </li>
+  </ul>
+  
+  <p>
+  <u>IP Routing Protocols</u>
+  </p>
+  <ul>
+    <li>
+      <a href="rip_pcap.zip">RIP</a>
+      Versions 1, 2, and ng covering IPv4 and IPv6 exchanges.
+    </li>
+    <li>
+      <a href="eigrp_pcap.zip">EIGRP</a>
+      Various EIGRP exchanges (including SIA) for IPv4 and IPv6.
+    </li>
+    <li>
+      <a href="ospf_pcap.zip">OSPF</a>
+      Various OSPFv2 (IPv4) and OSPFv3 (IPv4/IPv6) exchanges.
+    </li>
+    <li>
+      <a href="isis_pcap.zip">IS-IS</a>
+      Various IS-IS L1 and L2 exchanges for IPv4 and IPv6.
+    </li>
+    <li>
+      <a href="bgp_pcap.zip">BGP</a>
+      For IPv4/v6: unicast, multicast, and flowspec.
+      For MPLS: L3VPN, LDP/BGP VPLS, MVPN, RTC, EVPN, and LS.
+    </li>
+    <li>
+      <a href="babel_pcap.zip">Babel</a>
+      Various Babel captures (diversity, timestamps, etc.) for IPv4 and IPv6.
+    </li>
+    <li>
+      <a href="pim_pcap.zip">PIM</a>
+      IPv4/v6 ASM, SSM, Bidir, and BSR. For IPv4: DM, Auto-RP, and PIMv1.
+      For IPv6: Embedded RP.
+    </li>
+    <li>
+      <a href="openflow_pcap.zip">OpenFlow</a>
+      Version 1.3 flow modifications and port statistics with the
+      <a href="https://faucet.nz/">Faucet</a> SDN controller.
+    </li>
+  </ul>
+  
+  <p>
+  <u>Network Management and Operations</u>
+  </p>
+  <ul>
+    <li>
+      <a href="diag_pcap.zip">Diagnostic</a>
+      TCP/UDP small services (echo, chargen, daytime, etc) and IP SLA probes.
+    </li>
+    <li>
+      <a href="qos_pcap.zip">QoS</a>
+      All standard DSCP, Ethernet CoS, and MPLS EXP values. ECN, RSVP, and Ethernet pause/PFC frames.
+    </li>
+    <li>
+      <a href="netflow_pcap.zip">NetFlow</a>
+      Versions 5, 9, and 10 (IPFIX) for IPv4, IPv6, and MPLS flows.
+    </li>
+    <li>
+      <a href="aaa_pcap.zip">AAA</a>
+      RADIUS, TACACS, EAP over LAN (802.1X), and TrustSec (SXP) captures.
+    </li>
+    <li>
+      <a href="nat_pcap.zip">NAT</a>
+      NAT44, NAT64 stateful/stateless, and NAT66 (NPTv6) captures. NAT46 and MAP-E/T coming later.
+    </li>
+    <li>
+      <a href="netsrv_pcap.zip">Network Services</a>
+      DHCPv4/v6, DNSv4/v6, PREF64, SNMPv1/v2c/v3, RSH, WOL, RDP, VNC, CMP, syslog, Telnet, and NETBIOS captures.
+    </li>
+    <li>
+      <a href="webhttp_pcap.zip">HTTP</a>
+      Versions 1.1, 2, 3 (QUIC), decoded HTTPS, JSON-RPC, and WCCPv2 layer-2/GRE redirection captures. 
+    </li>
+    <li>
+      <a href="restconf_pcap.zip">RESTCONF</a>
+      GET, POST, PUT, DELETE, PATCH, and HEAD requests using plain HTTP.
+    </li>
+    <li>
+      <a href="grpc_pcap.zip">gRPC/gNMI</a>
+      Configuration management and telemetry captures. Includes protobuf files for decoding.
+    </li>
+    <li>
+      <a href="iot_pcap.zip">IoT Protocols</a>
+      Various Internet of Things captures, such as CoAP and MQTT. More coming in the future.
+    </li>
+    <li>
+      <a href="eoam_pcap.zip">Ethernet OAM</a>
+      CFM, E-OAM, and E-LMI, and ITU-T Y.1731 PM captures.
+    </li>
+    <li>
+      <a href="icmp_pcap.zip">ICMP</a>
+      IPv4/v6 captures: ping, traceroute, PMTUD, various unreachables, and IPv6 ND (plus RDNSS).
+    </li>
+    <li>
+      <a href="igmp_pcap.zip">IGMP/MLD</a>
+      IPv4 IGMP and IPv6 MLD captures for ASM/SSM groups, plus DNS and URD-based SSM mapping.
+    </li>
+    <li>
+      <a href="extras_pcap.zip">IP Extras</a>
+      IPv4 options and IPv6 extension headers, plus IP fragments and UDP-Lite.
+    </li>
+  </ul>
+
+  <p>
+  <u>Common Applications and Products</u>
+  </p>
+  <ul>
+    <li>
+      <a href="ftp_pcap.zip">File Transfer</a>
+      IPv4/v6 FTP, FTPS, SFTP, SCP, and TFTP captures.
+    </li>
+    <li>
+      <a href="email_pcap.zip">Email Protocols</a>
+      SMTP, POP3, and IMAP4 captures. Includes relevant mail server DNS A/MX records.
+    </li>
+    <li>
+      <a href="database_pcap.zip">Databases</a>
+      MySQL (relational), Mongo (document), and Influx (time-series) captures.
+    </li>
+    <li>
+      <a href="storage_pcap.zip">Network Storage</a>
+      iSCSI, NFSv3 (with mount and portmap), and SMB captures.
+    </li>
+    <li>
+      <a href="collab_pcap.zip">Collaboration</a>
+      SIP, SCCP, H.323, MGCP, RTP, DTMF handling, and fax/modem modem captures.
+    </li>
+    <li>
+      <a href="meraki_pcap.zip">Meraki Products</a>
+      Various Cisco Meraki product captures: MR20, MV12WE, and MX64.
+    </li>
+  </ul>
+
+  <a name="cheat-sheet" type="skip"></a>
+  <h2>Cheat Sheets</h2>
+  <i>Good for quick reference and saving time on the job.</i>
+  <ul>
+    <li>
+      <a href="neural_net.jpg">Neural Network Architecture and Formulas</a>
+      Detailed view of forward and backward propagation (plus implementation details).
+    </li>
+    <li>
+      <a href="py_abc_col_uml.jpg">Python 'collections.abc' UML Class Diagram</a>
+      Comprehensive visualization of these ABCs and their methods/relationships.
+    </li>
+    <li>
+      <a href="py_conc_col_uml.jpg">Python Concrete Collections UML Class Diagram</a>
+      Partial visualization of various collections and their methods/relationships.
+    </li>
+    <li>
+      <a href="py_abc_num_uml.jpg">Python 'numbers' UML Class Diagram</a>
+      Partial visualization of these ABCs, their methods/relationships, and some concrete subclasses.
+    </li>
+    <li>
+      <a href="https://github.com/nickrusso42518/net-templates">Network Configuration Templates</a>
+      Leverage known-good, simplified templates for
+      long-config technologies like QoS, NetFlow, and DMVPN.
+    </li>
+    <li>
+      <a href="wlan_qos.xlsx">DSCP and 802.1e UP mappings</a>
+      Results of QoS testing on a variety of mobile devices over a Cisco WLAN
+      network.
+    </li>
+    <li>
+      <a href="qos_tools.xlsx">QoS Tools</a>
+      Includes PHBs for RFC-4594 service classes and various
+      traffic conditioning calculators.
+    </li>
+    <li>
+      <a href="ipsec_design.xlsx">IPsec Design Considerations</a>
+      Results of IPsec testing and use-case comparison.
+      Feel free to suggest new use-cases to expand the table.
+    </li>
+    <li>
+      <a href="vsphere6_migrations.xlsx">vSphere6 vMotion Migrations</a>
+      Complex vMotions of a VM in various states, manipulating power, RDM, snapshot, etc.
+      Conclusions included.
+    </li>
+    <li>
+      <a href="econ_model.xlsx">Investment Calculator</a>
+      Evaluate the economic suitability of an investment (NPV, ROI, IRR, and payback period).
+    </li>
+    <!--
+    <li>
+      <a href="little_law.xlsx">Little's Law Calculator</a>
+      Meaningfully compare takt time, cycle time (throughput), lead time, and WIP.
+      <a href="https://hbswk.hbs.edu/archive/hbs-toolkit-basic-operations-self-instructional-workbook">Laundry Example</a>
+    </li>
+    -->
+  </ul>
+
+  <h2>Growth/Study Resources</h2>
+  <i>If you are studying for a certification (or just in general), these may help!</i>
+
+  <a name="cert-study-plans" type="skip"></a>
+  <h3>Certification Study Plans</h3>
+  <i>Comprehensive study plans to help you earn various certifications. See the video explanations</i>
+  <a href="../video/video.html#cert-study-plans" type="skip">here</a>.
+  <ul>
+    <li><a href="devasc_studyplan.xlsx">DevNet Associate Study Plan (DEVASC v1.1)</a></li>
+    <li><a href="devcor_studyplan.xlsx">DevNet Professional Core Study Plan (DEVCOR v1.1)</a></li>
+    <li><a href="enauto_studyplan.xlsx">Enterprise Automation Study Plan (ENAUTO v1.1)</a></li>
+    <li><a href="sauto_studyplan.xlsx">Security Automation Study Plan (SAUTO v1.1)</a></li>
+    <li><a href="enarsi_studyplan.xlsx">Advanced Enterprise Routing Study Plan (ENARSI v1.1)</a></li>
+    <li><a href="spcor_studyplan.xlsx">Service Provider Core Study Plan (SPCOR v1.0)</a></li>
+    <li><a href="spauto_studyplan.xlsx">Service Provider Automation Study Plan (SPAUTO v1.0)</a></li>
+  </ul>
+
+  <a name="postman" type="skip"></a>
+  <h3>Postman Collections</h3>
+  <i>
+  Requests, responses, and environments for various products and technologies.
+   <a href="https://www.github.com/nickrusso42518/postman">Clone the repository</a> or
+   <a href="https://www.postman.com/njrusmc/workspace/public-collections/overview">
+   view online workspace.</a>
+  </i>
+
+  <p>
+  <u>Networking</u>
+  </p>
+  <ul>
+    <li><a href="xe_restconf_postman.zip">Cisco IOS-XE RESTCONF</a></li>
+    <li><a href="meraki_postman.zip">Cisco Meraki</a></li>
+    <li><a href="dnac_postman.zip">Cisco DNA Center with Software Defined Access (SDA)</a></li>
+    <li><a href="sdwan_postman.zip">Cisco Software-Defined Wide Area Network (SD-WAN)</a></li>
+    <li><a href="nso_postman.zip">Cisco Network Services Orchestrator (NSO)</a></li>
+    <li><a href="arista_eos_postman.zip">Arista EOS eAPI and RESTCONF</a></li>
+  </ul>
+
+  <p>
+  <u>Data Center</u>
+  </p>
+  <ul>
+    <li><a href="nx_nxapi_restconf_postman.zip">Cisco Nexus NX-API and RESTCONF</a></li>
+    <li><a href="aci_postman.zip">Cisco Application-Centric Infrastructure (ACI)</a></li>
+    <li><a href="ndo_postman.zip">Cisco Nexus Dashboard Orchestrator (NDO)</a></li>
+    <li><a href="ndfc_postman.zip">Cisco Nexus Dashboard Fabric Controller (NDFC)</a></li>
+    <li><a href="ucsm_postman.zip">Cisco UCS Manager (UCSM)</a></li>
+    <li><a href="ucs_imc_postman.zip">Cisco UCS IMC (OOBM Port)</a></li>
+  </ul>
+
+  <p>
+  <u>Security</u>
+  </p>
+  <ul>
+    <li><a href="ftd_postman.zip">Cisco Firepower Threat Defense (FTD)</a></li>
+    <li><a href="fmc_postman.zip">Cisco Firepower Management Center (FMC)</a></li>
+    <li><a href="amp_postman.zip">Cisco Advanced Malware Protection (AMP)</a></li>
+    <li><a href="tg_postman.zip">Cisco ThreatGrid</a></li>
+    <li><a href="xdr_postman.zip">Cisco Extended Detection and Response (XDR)</a></li>
+    <li><a href="umbrella_postman.zip">Cisco Umbrella (Legacy and Unified)</a></li>
+    <li><a href="ise_postman.zip">Cisco Identity Services Engine (ISE)</a></li>
+    <li><a href="swatch_postman.zip">Cisco Stealthwatch (includes Enterprise and Cloud)</a></li>
+    <li><a href="sma_postman.zip">Cisco Security Management Appliance (includes email and web)</a></li>
+    <li><a href="psirt_postman.zip">Cisco PSIRT openVuln</a></li>
+    <li><a href="splunk_postman.zip">Splunk</a></li>
+    <li><a href="panos_postman.zip">Palo Alto PANOS REST API</a></li>
+    <li><a href="tsc_postman.zip">Tenable SecurityCenter</a></li>
+  </ul>
+
+  <p>
+  <u>Collaboration</u>
+  </p>
+  <ul>
+    <li><a href="webex_postman.zip">Cisco Webex (includes Teams and Meetings)</a></li>
+    <li><a href="cucm_postman.zip">Cisco Unified Communications Manager (UCM)</a></li>
+    <!--
+    <li><a href="cms_postman.zip">Cisco Meeting Server (Acano)</a></li>
+    -->
+  </ul>
+
+  <p>
+  <u>OAM and APM Products</u>
+  </p>
+  <ul>
+    <li><a href="appd_postman.zip">Cisco AppDynamics</a></li>
+    <li><a href="smartlic_postman.zip">Cisco Smart Licensing</a></li>
+    <li><a href="cml_postman.zip">Cisco Modeling Labs (CML)</a></li>
+    <li><a href="gns3_postman.zip">Graphical Network Simulator-3 (GNS3)</a></li>
+    <li><a href="awx_postman.zip">Ansible Tower/AWX</a></li>
+    <li><a href="st_nexus_postman.zip">Sonatype Nexus</a></li>
+    <li><a href="prometheus_postman.zip">Prometheus</a></li>
+    <li><a href="netbox_postman.zip">NetBox</a></li>
+    <li><a href="snow_postman.zip">ServiceNOW</a></li>
+    <li><a href="grafana_postman.zip">Grafana</a></li>
+    <li><a href="kibana_postman.zip">Kibana</a></li>
+  </ul>
+
+  <p>
+  <u>Miscellaneous</u>
+  </p>
+  <ul>
+    <li><a href="openai_postman.zip">OpenAI/ChatGPT</a></li>
+    <li><a href="peeringdb_postman.zip">PeeringDB</a></li>
+    <li><a href="disqus_postman.zip">Disqus</a></li>
+  </ul>
+
+  <a name="ccde-scenario" type="skip"></a>
+  <h3>Cisco Certified Design Expert (CCDE) Scenarios</h3>
+  <i>Free scenarios to help you study for the CCDE practical exam.</i>
+  <ul>
+    <li>
+      <a href="lmnop_scenario.pdf">LMNOP Scenario</a>
+      A full length, SP-focused scenario sure to frustrate you.
+    </li>
+    <li>
+      <a href="lmnop_answers.pdf">LMNOP Answer Key</a>
+      The answer key to the LMNOP scenario above. Hit me on twitter with questions.
+    </li>
+    <li>
+      <a href="dermacorp_analyze.pdf">DermaCorp</a>
+      Background-only scenario designed to hone your "analyze" skills.
+    </li>
+    <li>
+      <a href="mela_mini.pdf">MELA Construction</a>
+      Short CCDE scenario, written by <a href="https://twitter.com/malcolmbooden" type="skip">Malcolm Booden</a>.
+    </li>
+    <li>
+      <a href="ndfc_analyze.pdf">Nacho Daddy Financial</a>
+      Another background-only scenario, written by Fareed Fakoor.
+    </li>
+  </ul>
+
+<p>
+-------------<br/>
+<a href="../index-2.html">Main Page</a>
+</p>
+</body>
+
+<!-- Mirrored from njrusmc.net/jobaid/jobaid.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jun 2024 06:40:51 GMT -->
+</html>
